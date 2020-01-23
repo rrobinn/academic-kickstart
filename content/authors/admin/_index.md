@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Robin Sifre
+name: Robin Sifre TEST
 
 # Username (this should match the folder name)
 authors:
