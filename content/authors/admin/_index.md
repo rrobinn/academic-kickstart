@@ -33,7 +33,7 @@ education:
     institution: Institute of Child Development, University of Minnesota
     year: 2021 (expected)
   - course: B.S. in Cognitive Neuroscience
-     institution: Brown University
+    institution: Brown University
     year: 2012
 
 # Social/Academic Networking
