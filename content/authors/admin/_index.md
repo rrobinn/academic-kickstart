@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Robin Sifre TEST
+name: Robin Sifre
 
 # Username (this should match the folder name)
 authors:
@@ -69,6 +69,6 @@ user_groups:
 - Visitors
 ---
 
-I'm a Ph.D. candidate at the University of Minnesota's Institute of Child Development. My research interests include the development of visual attention, early brain development, and computational psychiatry.
+I'm a Ph.D. candidate at the University of Minnesota's Institute of Child Development. My research interests include infant brain and behavioral development, visual attention, and computational psychiatry.
 
 
