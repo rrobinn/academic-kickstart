@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
 title = "Publications"
-subtitle = "Test"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -66,6 +66,4 @@ subtitle = "Test"
  css_class = ""
 +++
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+
