@@ -13,6 +13,8 @@ header:
   caption: ""
   image: ""
   
+publication: 
+- bio-motion
 
 ---
 
