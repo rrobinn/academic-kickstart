@@ -20,17 +20,8 @@ publication = "*Journal of Pediatrics*"
 publication_short = "*J. Peds.*"
 
 # Abstract and optional shortened version.
-abstract = "OBJECTIVE:
-To characterize restricted and repetitive behaviors (RRBs) and reciprocal social behaviors (RSBs) in a large sample of toddlers who represent a range of birth weights and gestation durations.
+abstract = ""
 
-STUDY DESIGN:
-A battery of questionnaires characterizing demographic information and measuring RRBs and RSBs were completed by parents of toddlers between the ages of 17-26 months (n = 1589 total; n = 98 preterm). The association between birth weight and/or gestation duration and the primary outcome measures (RRBs and RSBs as ascertained through the Repetitive Behavior Scale for Early Childhood and the Video-Referenced Rating of Reciprocal Social Behavior) were tested by using hierarchical multivariate multiple regression.
-
-RESULTS:
-Toddlers born preterm and full term did not differ on RRBs or RSBs. However, there were significant associations between birth weight percentile for gestation duration (BPGD) and RRBs (β = -2.1, P = .03), above and beyond the effects of age, sex, and vocabulary production. Similarly, there was a significant association between BPGD and RSBs (β = -1.8, P = .02), above and beyond the effects of age, sex, and vocabulary production.
-
-CONCLUSIONS:
-These findings demonstrate that BPGD better predicted putative antecedents of adverse psychological outcomes-specifically, RRBs and RSBs-than gestation duration alone. These findings provide insight to the link between preterm birth and suboptimal behavioral/psychological outcomes and suggest that high birth weight, which may reflect a more optimal intrauterine environment, may serve as a protective factor irrespective of gestation duration."
 # Featured image thumbnail (optional)
 image_preview = ""
 
@@ -44,7 +35,7 @@ selected = false
 
 # Links (optional)# Custom links (optional).
 # url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
-url_pdf = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub"
+#url_pdf = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub"
 #url_code = "https://osf.io/yq52s/"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
