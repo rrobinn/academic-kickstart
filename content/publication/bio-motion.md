@@ -48,7 +48,6 @@ url_pdf = "https://www.nature.com/articles/s41598-018-20808-0"
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
 #url_custom = [{name = "Preregistration", url = "https://osf.io/yq52s/"}, {name = "DOI", url = "https://#dx.doi.org/10.1177/1359105317723452"}]
 
-
 # Does the content use math formatting?
 math = true
 
@@ -63,8 +62,5 @@ caption = ""
 
 +++
 
-#<table class="image">
-#<caption align="bottom"> <b>Figure 2 from Lenne & Mann (2017).</b> Sugar-use by condition at #baseline (before the intervention), one month after the intervention ended, and six months after the #intervention ended. The left panel shows the frequency of consumption of sugar-free coffee. The #right panel shows the percent of cups of coffee that were consumed sugar-free. Mean and standard #error are depicted at each time point. All responses are plotted.</caption>
-#<tr><td><img src="/img/Lenne2017Fig2.color.png" alt="Figure 2 sugar use in coffee from Lenne & #Mann 2017"/></td></tr>
-#</table>
+
 
