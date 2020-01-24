@@ -61,6 +61,11 @@ image = ""
 caption = ""
 
 +++
+<table class="image">
+<caption align="bottom"> <b>Figure 3 from Sifre et al. (2018).</b>Model-based mean estimates of preferential attention to upright biological motion between 2 and 24 months of age. Dashed lines represent 95% confidence intervals. The horizontal line denotes equal looking towards upright and inverted biological motion stimuli (50%). Percentage of fixation time to upright biological motion stimuli increases with age (F = 5.85, p < 0.001). While 2-month-old infants do not look preferentially at the upright figure (M = 46.5%, 95% CI [39.8–53.2%], p = 0.299), a preference is observed by month 3 and increases through month 24.</caption>
+<tr><td><img src="/img/bio-motion-img.png" alt="Figure 3 Sifre et al. (2018)"/></td></tr>
+</table>
+
 
 
 

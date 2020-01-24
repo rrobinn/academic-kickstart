@@ -35,7 +35,7 @@ selected = false
 
 # Links (optional)# Custom links (optional).
 # url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
-url_pdf = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub"
+url_pdf = "https://reader.elsevier.com/reader/sd/pii/S0022347618306504?token=07C67EF8DD29F7182F319CC1B910C10F23F13D261F413F67317A697798709AD01E94710E4002477A01C7628FEE96F17D"
 #url_code = "https://osf.io/yq52s/"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
@@ -46,7 +46,7 @@ url_pdf = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?v
 
 
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Preregistration", url = "https://osf.io/yq52s/"}, {name = "DOI", url = "https://#dx.doi.org/10.1177/1359105317723452"}]
+url_custom = [{name = "DOI", url = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub#f0030"}]
 
 
 # Does the content use math formatting?
