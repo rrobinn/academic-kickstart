@@ -35,7 +35,7 @@ selected = false
 
 # Links (optional)# Custom links (optional).
 # url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
-#url_pdf = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub"
+url_pdf = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub"
 #url_code = "https://osf.io/yq52s/"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
@@ -65,7 +65,7 @@ caption = ""
 
 <table class="image">
 <caption align="bottom"> <b>Figure 5 from Sifre et al. (2018).</b> Distribution of low and high A, RBS-EC and C, vrRSB scores (as defined by below/above the sample mean), plotted as within-sample proportion for toddlers with low- and high-BPGD. Low BPGD was defined as being below the 50th percentile, while high BPGD was defined as >50th percentile. B, and D, show the relative proportion of toddlers with very low or high scores (as defined by below/above the 10th or 90th percentile) who are also below or above the 10th and 90th percentile for BPGD. </caption>
-<tr><td><img src="static/img/repetitive-bx-fig.png" alt="Figure 5 Sifre et al. (2018)"/></td></tr>
+<tr><td><img src="/img/repetitive-bx-fig.png" alt="Figure 5 Sifre et al. (2018)"/></td></tr>
 </table>
 
 
