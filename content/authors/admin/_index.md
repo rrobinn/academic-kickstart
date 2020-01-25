@@ -54,9 +54,9 @@ social:
   link: https://github.com/rrobinn/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "robinsifre@gmail.com"
@@ -69,6 +69,6 @@ user_groups:
 ---
 
 I'm a Ph.D. candidate at the University of Minnesota's Institute of Child Development. My research interests include infant brain and behavioral development, visual attention, and computational psychiatry.
-{{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
+#{{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}
 
 
