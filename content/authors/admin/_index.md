@@ -52,7 +52,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/rrobinn/
-- icon: linkedin
+- icon: linkedin-in
   icon_pack: fa
   link: https://www.linkedin.com/in/robin-sifre
 # Link to a PDF of your resume/CV from the About widget.
