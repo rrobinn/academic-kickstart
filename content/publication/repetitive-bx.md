@@ -20,7 +20,9 @@ publication = "*Journal of Pediatrics*"
 publication_short = "*J. Peds.*"
 
 # Abstract and optional shortened version.
-abstract = ""
+abstract = "<b>Objective</b> To characterize restricted and repetitive behaviors (RRBs) and reciprocal social behaviors (RSBs) in a large sample of toddlers who represent a range of birth weights and gestation durations.
+<b>Study design</b> A battery of questionnaires characterizing demographic information and measuring RRBs and RSBs were completed by parents of toddlers between the ages of 17-26 months (n = 1589 total; n = 98 preterm). The association between birth weight and/or gestation duration and the primary outcome measures (RRBs and RSBs as ascertained through the Repetitive Behavior Scale for Early Childhood and the Video-Referenced Rating of Reciprocal Social Behavior) were tested by using hierarchical multivariate multiple regression.
+<b>Results<.b> Toddlers born preterm and full term did not differ on RRBs or RSBs. However, there were significant associations between birth weight percentile for gestation duration (BPGD) and RRBs (b = −2.1, P = .03), above and beyond the effects of age, sex, and vocabulary production. Similarly, there was a significant association between BPGD and RSBs (<i>b</i> = −1.8, <i>P</i> = .02), above and beyond the effects of age, sex, and vocabulary production. Conclusions These findings demonstrate that BPGD better predicted putative antecedents of adverse psycho- logical outcomes—specifically, RRBs and RSBs—than gestation duration alone. These findings provide insight to the link between preterm birth and suboptimal behavioral/psychological outcomes and suggest that high birth weight, which may reflect a more optimal intrauterine environment, may serve as a protective factor irrespective of gestation duration."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -35,7 +37,7 @@ selected = false
 
 # Links (optional)# Custom links (optional).
 # url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
-url_pdf = "https://reader.elsevier.com/reader/sd/pii/S0022347618306504?token=07C67EF8DD29F7182F319CC1B910C10F23F13D261F413F67317A697798709AD01E94710E4002477A01C7628FEE96F17D"
+url_pdf = "pubpdf/sifre_2018_JPeds.pdf"
 #url_code = "https://osf.io/yq52s/"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
@@ -44,9 +46,8 @@ url_pdf = "https://reader.elsevier.com/reader/sd/pii/S0022347618306504?token=07C
 #url_poster = ""
 #url_source = ""
 
-
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "DOI", url = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub#f0030"}]
+url_custom = [name = "DOI", url = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?via%3Dihub#f0030"]
 
 
 # Does the content use math formatting?
