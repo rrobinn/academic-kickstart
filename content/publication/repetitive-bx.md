@@ -36,7 +36,7 @@ selected = false
 
 # Links (optional)# Custom links (optional).
 # url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
-url_pdf = "pubpdf/sifre_2018_JPeds.pdf"
+# url_pdf = "pubpdf/sifre_2018_JPeds.pdf"
 #url_code = "https://osf.io/yq52s/"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
