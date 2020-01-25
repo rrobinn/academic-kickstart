@@ -45,7 +45,7 @@ url_pdf = "pubpdf/Sifre_2018_biomotion.pdf"
 #url_source = ""
 
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [name = "DOI", url = "https://www.nature.com/articles/s41598-018-20808-0"]
+# url_custom = [name = "DOI", url = "https://www.nature.com/articles/s41598-018-20808-0"]
 
 # Does the content use math formatting?
 math = true
