@@ -36,7 +36,7 @@ selected = false
 # Links (optional)# Custom links (optional).
 # url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
 # url_pdf = "https://www.nature.com/articles/s41598-018-20808-0"
-url_pdf = "pubpdf/Sifre_2018_biomotion.pdf"
+#url_pdf = "pubpdf/Sifre_2018_biomotion.pdf"
 #url_code = "https://osf.io/yq52s/"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
