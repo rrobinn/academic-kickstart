@@ -1,6 +1,6 @@
 +++
-title = "A Longitudinal Investigation of Preferential Attention to Biological Motion in 2- to 24-Month-Old Infants"
-date = "2018-01-23"
+title = "Capturing dimensions of material deprivation, sociocognitive stimulation, and emotional threat in the context of poverty: A moderated nonlinear factor model in a population-based sample of low-income children measured across infancy through early adolescence"
+date = "2020-01-21"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Meriah DeJoseph", " Robin Sifre", "Cybele Raver ", "Clancy Blair", "Daniel Berry"]
@@ -34,7 +34,7 @@ selected = false
 #projects = [""]
 
 # Links (optional)# Custom links (optional).
-# url_preprint = "https://psyarxiv.com/tw3fg/"
+url_preprint = "https://psyarxiv.com/tw3fg/"
 # url_pdf = "pubpdf/Sifre_2018_biomotion.pdf"
 #url_code = "https://osf.io/yq52s/"
 #url_dataset = "https://osf.io/yq52s/"
