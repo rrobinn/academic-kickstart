@@ -1,5 +1,5 @@
 +++
-title = "Finding structure in the noise: What fractal structure of eye-tracking time series data can tell us about attention"
+title = "Finding structure in the noise: What the fractal structure of eye-tracking time series data can tell us about attention"
 date = "2020-01-21"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
