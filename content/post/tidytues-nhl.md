@@ -30,7 +30,7 @@ I thought that this multi-level data would be a fun way to explore the impact of
 <table class="image">
 <tr><td><img src="/post-img/mighty-ducks.png" alt=" "/></td></tr>
 </table>  
-*Mea culpa.*    
+**Mea culpa.**
 
 Anyway, I thought it would be neat to investigate the relationship between <b>Penalty minutes</b> and <b> goals scored by player</b>. 
 
@@ -53,7 +53,17 @@ player_stats = season_goals %>%
 Then, I merged player_stats with <mark>season_goals</mark>.
 {{< highlight go "linenos=table, linenostart=1" >}}
 merged = merge(season_goals2, player_stats, by = 'player')
-{{< / highlight >}}
+{{< / highlight >}}  
+
+Now we are ready to create our <b> centered variabes </b>. We center each player's **season-average penalty minutes** (<mark>season_penalty</mark>) on their **career-average penalty minutes** (<mark>ave_penalty</mark>) to create the variable <mark>penalty_c</mark>.  
+<penalty_c> now shows how a player's penalty minutes changes from season-to-season, **holding <mark>ave_penalty</mark> constant.  
+Negative values of <mark>penalty_c</mark> indicate seasons where a player had <b>lower</b> than average minutes in the penalty box, and positive values indicate  seasons where a player had <b>higher</b> than average minutes in the penalty box. In this case, average refers to their own personal average. 
+
+{{< highlight go "linenos=table, linenostart=1" >}}
+merged = merged %>%
+  mutate(penalty_c = season_penalty - ave_penalty,
+         goals_c = season_goals - ave_goals,
+{{< / highlight >}}  
 
 
   
