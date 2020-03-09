@@ -40,8 +40,14 @@ You can imagine that the relationship between penalty minutes and goals scored c
 <b> 2. Within-player effect</b>. Hypothesis: When a given player plays more aggressively, they also score more goals. A relationship between penalty minutes and goals *adjusted for the player's career averages* would suggest that this relationship is driven by *within-player* differences.
 
 # Centering variables
-{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
-a = data$test
+So how did I center my variables? First, I created <mark>player_stats</mark>, a variable that holds career-average penalty minutes and goals for each players.  
+
+{{< highlight go "linenos=table, linenostart=1" >}}
+player_stats = season_goals %>%
+  dplyr::select(player, penalty_min, goals) %>%
+  group_by(player) %>%
+  summarize(ave_penalty = mean(penalty_min),
+            ave_goals = mean(goals))
 {{< / highlight >}}
 
   
