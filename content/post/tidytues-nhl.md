@@ -15,7 +15,7 @@ image_preview = ""
 
 +++
 
-I've recently started to participate in [Tidy Tuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/), a weekly social data project in R. Each week they release a new dataset on their [GitHub](https://github.com/rfordatascience/tidytuesday). It's a fun opportunity to explore new and interesting data sets.  
+I've recently started to participate in [Tidy Tuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/), a weekly social data project in R. Each week they release a new dataset on their [GitHub](https://github.com/rfordatascience/tidytuesday). It's a fun opportunity to explore new and interesting data sets.  In this post, I walk through a bit of my code, but you can find the complete code on my [GitHub](https://github.com/rrobinn/tidy-tuesday/tree/master/20200303-HockeyGoals).
 
 This week's dataset comes from [HockeyReference.com](https://www.hockey-reference.com/). There were 3 downloadable datasets:  
 1. Overall career goals.  
@@ -49,6 +49,12 @@ player_stats = season_goals %>%
   summarize(ave_penalty = mean(penalty_min),
             ave_goals = mean(goals))
 {{< / highlight >}}
+
+Then, I merged player_stats with <mark>season_goals</mark>.
+{{< highlight go "linenos=table, linenostart=1" >}}
+merged = merge(season_goals2, player_stats, by = 'player')
+{{< / highlight >}}
+
 
   
   
