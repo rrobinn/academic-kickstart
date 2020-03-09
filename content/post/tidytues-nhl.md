@@ -26,17 +26,23 @@ I thought that this multi-level data would be a fun way to explore the impact of
 
 # The question
 <b> Disclaimer: </b> I know nothing about Hockey, and most of my knowledge comes from the Mighty Ducks franchise. I hear that as someone who has lived in Minnesota for four years this is inexcusable, but here we are.  
-*Mea culpa.*    
+
 <table class="image">
 <tr><td><img src="/post-img/mighty-ducks.png" alt=" "/></td></tr>
-</table>
+</table>  
+*Mea culpa.*    
 
 Anyway, I thought it would be neat to investigate the relationship between <b>Penalty minutes</b> and <b> goals scored by player</b>. 
 
-# Variable centering and partitioning of variance
+# Do aggressive players score more? Or do players score more when they play more aggressively?
 You can imagine that the relationship between penalty minutes and goals scored could work on 2 different levels:  
 <b> 1. Between-player effect</b>.  Hypothesis: More aggressive players score more goals. A relationship between *career average* penalty minutes and *career average* goals would suggest that the relationship is driven by  *between-player* differences.  
 <b> 2. Within-player effect</b>. Hypothesis: When a given player plays more aggressively, they also score more goals. A relationship between penalty minutes and goals *adjusted for the player's career averages* would suggest that this relationship is driven by *within-player* differences.
+
+# Centering variables
+{{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
+a = data$test
+{{< / highlight >}}
 
   
   
