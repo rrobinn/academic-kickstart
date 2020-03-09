@@ -26,10 +26,11 @@ I thought that this multi-level data would be a fun way to explore the impact of
 
 # The question
 <b> Disclaimer: </b> I know nothing about Hockey, and most of my knowledge comes from the Mighty Ducks franchise. I hear that as someone who has lived in Minnesota for four years this is inexcusable, but here we are.  
-*Mea culpa.*  
+*Mea culpa.*    
+<table class="image">
+<tr><td><img src="/post-img/mighty-ducks.png" alt=" "/></td></tr>
+</table>
 
-<tr><td><img src="/post-img/mighty-ducks.jpg" alt=""/></td></tr>
-  
 Anyway, I thought it would be neat to investigate the relationship between <b>Penalty minutes</b> and <b> goals scored by player</b>. 
 
 # Variable centering and partitioning of variance
