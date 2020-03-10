@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2016-09-01"
   date_end = ""
   description = """
-  Responsibilities include:
+  Research projects include:
   
   * Applying machine learning to develop low-cost screeners for developmental disorders.
   * Collecting and analyzing functional MRI data to model brain connectivity in infants.
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   location = "Minneapolis, MN"
   date_start = "2019-01-01"
   date_end = "2019-05-01"
-  description = """Taught Introduction to Psychology."""
+  description = """Taught Introduction to Psychology to class of 25 college students."""
 
 [[experience]]
   title = "Graduate Student Representative"
@@ -49,10 +49,9 @@ date_format = "Jan 2006"
   date_start = "2019-09-01"
   date_end = ""
   description = """
-  Responsibilities include:
   
-  * Holding town hall listening sessions to understand ways in which graduate students would like to see program improvements.  
-  * Working with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
+  * I hold town hall listening sessions to understand ways in which graduate students would like to see program improvements.  
+  * I then work with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
   """
   
 +++

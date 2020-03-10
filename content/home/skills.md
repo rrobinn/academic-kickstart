@@ -37,5 +37,11 @@ subtitle = ""
   icon_pack = "fas"
   name = "Programming"
   description = "MATLAB, Python, and Java"
+  
+[[feature]]
+  icon = "eye"
+  icon_pack = "far"
+  name = "Eye tracking"
+  description = "Eye tracking tech"
 
 +++
