@@ -2,7 +2,7 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
@@ -18,27 +18,41 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "PhD Candidate"
+  company = "University of Minnesota Twin Cities"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "Minneaplis, MN"
+  date_start = "2016-09-01"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Applying machine learning to develop low-cost screeners for developmental disorders.
+  * Collecting and analyzing functional MRI data to model brain connectivity in infants.
+  * Evaluating survey data with factor analysis. 
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Course Instructor"
+  company = "University of Minnesota Twin Cities"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Minneapolis, MN"
+  date_start = "2019-01-01"
+  date_end = "2019-05-01"
+  description = """Taught Introduction to Psychology."""
 
+[[experience]]
+  title = "Graduate Student Representative"
+  company = "University of Minnesota Twin Cities"
+  company_url = ""
+  location = "Minneaplis, MN"
+  date_start = "2019-09-01"
+  date_end = ""
+  description = """
+  Responsibilities include:
+  
+  * Holding town hall listening sessions to understand ways in which graduate students would like to see program improvements.  
+  * Working with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
+  """
+  
 +++
