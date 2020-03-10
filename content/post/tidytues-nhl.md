@@ -23,9 +23,10 @@ This week's dataset comes from [HockeyReference.com](https://www.hockey-referenc
 
 I thought that this multi-level data would be a fun way to explore the impact of how <b> centering variables</b> can clarify which level of analysis is driving the relationship.  
 
-In this case, do aggressive players (those who spend a lot of time in the penalty box) score more? Or, do they have a higher-scoring season when they play more aggressively?     
 
 # The question
+<b>Is there a relationship between aggressive play (time spent in the penalty box) and scoring?</b>  On the one hand, more aggressive play could mean more goals. On the other hand, too much time in the penalty box takes you out of the game and could minimize your opportunity to score.  
+
 <b> Disclaimer: </b> I know nothing about Hockey, and most of my knowledge comes from the Mighty Ducks franchise. As someone who has lived in Minnesota for four years this is inexcusable, but here we are.  
 
 <table class="image">
@@ -34,15 +35,19 @@ In this case, do aggressive players (those who spend a lot of time in the penalt
 
 <i>Mea culpa.</i>
 
-Anyway, I thought it would be neat to investigate the relationship between <b>Penalty minutes</b> and <b> goals scored by player</b>. 
-
-# Do aggressive players score more? Or do players score more when they play more aggressively?
+# Why should I center my variables?
+Let's imagine that there is a relationship between penalty minutes and goals scored. You can imagine this relationship work on two different levels: 
 You can imagine that the relationship between penalty minutes and goals scored could work on 2 different levels:  
-<b> 1. Between-player effect</b>.  Hypothesis: More aggressive players score more goals. A relationship between *career average* penalty minutes and *career average* goals would suggest that the relationship is driven by  *between-player* differences.  
-<b> 2. Within-player effect</b>. Hypothesis: When a given player plays more aggressively, they also score more goals. A relationship between penalty minutes and goals *adjusted for the player's career averages* would suggest that this relationship is driven by *within-player* differences.
+<b> 1. Between-player effect</b>.  More aggressive players score more goals. A relationship between CAREER-AVERAGE penalty minutes and goals would suggest that the relationship is driven by  *between-player* differences.  
+<b> 2. Within-player effect</b>. When a given player plays more aggressively, they also score more goals. A relationship between SEASON-AVERAGE penalty minutes and goals would suggest that this relationship is driven by *within-player* differences.  
+  
+<i>However</i>: when we examine season-averages we are "smushing together" variability driven by season-to-season changes within a player, and variability driven by differences between player skill. In other words, a top player may still score more goals even when they're having a poor season relative to a less skilled player. 
+
+<b>Do aggressive players score more? Or do players score more when they play more aggressively?</b> To better answer this question, we can center our variables.  
+If we take each player's season average (for penalty minutes & goals), and subtract it from their career average, we can isolate season-to-season variability. 
 
 # Centering variables
-So how did I center my variables? First, I created <mark>player_stats</mark>, a variable that holds career-average penalty minutes and goals for each players.  
+So how did I center my variables? First, I created a variable that holds career-average penalty minutes and goals for each players.  Let's call it <mark>player_stats</mark>.
 
 {{< highlight go "linenos=table, linenostart=1" >}}
 player_stats = season_goals %>%
@@ -52,20 +57,24 @@ player_stats = season_goals %>%
             ave_goals = mean(goals))
 {{< / highlight >}}
 
-Then, I merged player_stats with <mark>season_goals</mark>.
+Then, I merged player_stats with <mark>season_goals</mark>, my data.frame that holds season-average goals and penalty minutes. 
 {{< highlight go "linenos=table, linenostart=1" >}}
 merged = merge(season_goals2, player_stats, by = 'player')
 {{< / highlight >}}  
 
-Now we are ready to create our <b> centered variabes </b>. We center each player's **season-average penalty minutes** (<mark>season_penalty</mark>) on their **career-average penalty minutes** (<mark>ave_penalty</mark>) to create the variable <mark>penalty_c</mark>.  
-<mark>penalty_c</mark> now shows how a player's penalty minutes changes from season-to-season, **holding** <mark>ave_penalty</mark> **constant.**
-Negative values of <mark>penalty_c</mark> indicate seasons where a player had <b>lower</b> than average minutes in the penalty box, and positive values indicate  seasons where a player had <b>higher</b> than average minutes in the penalty box. In this case, average refers to their own personal average. 
+Now creating the <b> centered variables </b> is a piece of cake.  
+We center each player's **season-average penalty minutes** (<mark>season_penalty</mark>) on their **career-average penalty minutes** (<mark>ave_penalty</mark>) to create the variable <mark>penalty_c</mark>.  (We do the same thing for goals). 
 
 {{< highlight go "linenos=table, linenostart=1" >}}
 merged = merged %>%
   mutate(penalty_c = season_penalty - ave_penalty,
          goals_c = season_goals - ave_goals)
 {{< / highlight >}}  
+
+<mark>penalty_c</mark> now shows how a player's penalty minutes changes from season-to-season, **holding** <mark>ave_penalty</mark> **constant.**  
+
+Negative values of <mark>penalty_c</mark> indicate seasons where a player had <b>lower</b> than average minutes in the penalty box, and positive values indicate  seasons where a player had <b>higher</b> than average minutes in the penalty box. In this case, average refers to their own personal average. 
+
 
 # What does it buy us?
 When we plot <b>season-average</b> penalty minutes against goals scores, it looks like there might be a relationship between these two variables:   
@@ -75,6 +84,7 @@ When we plot <b>season-average</b> penalty minutes against goals scores, it look
 </table>  
 
 But, it's a bit messy.  In this figure we are smushing together variability between-players (e.g., high-scorers) and variability within a player (e.g., when someone is having a particularly good or bad season).  
+
 Now, let's plot the relationship between these two variables when we center them on a player's career average:  
 
  <table class="image">
