@@ -17,19 +17,21 @@ image_preview = ""
 
 I've recently started to participate in [Tidy Tuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/), a weekly social data project in R. Each week they release a new dataset on their [GitHub](https://github.com/rfordatascience/tidytuesday). It's a fun opportunity to explore new and interesting data sets.  In this post, I walk through a bit of my code, but you can find the complete code on my [GitHub](https://github.com/rrobinn/tidy-tuesday/tree/master/20200303-HockeyGoals).
 
-This week's dataset comes from [HockeyReference.com](https://www.hockey-reference.com/). There were 3 downloadable datasets:  
+This week's dataset comes from [HockeyReference.com](https://www.hockey-reference.com/). I used 2 of the downloadable datasets:  
 1. Overall career goals.  
 2. Season level goals.  
-3. Game level goals.  
 
-I thought that this multi-level data would be a fun way to explore the impact of how <b> centering variables</b> can clarify the relationship between two variables - specifically, which level of analysis is driving the relationship?     
+I thought that this multi-level data would be a fun way to explore the impact of how <b> centering variables</b> can clarify which level of analysis is driving the relationship.  
+
+In this case, do aggressive players (those who spend a lot of time in the penalty box) score more? Or, do they have a higher-scoring season when they play more aggressively?     
 
 # The question
-<b> Disclaimer: </b> I know nothing about Hockey, and most of my knowledge comes from the Mighty Ducks franchise. I hear that as someone who has lived in Minnesota for four years this is inexcusable, but here we are.  
+<b> Disclaimer: </b> I know nothing about Hockey, and most of my knowledge comes from the Mighty Ducks franchise. As someone who has lived in Minnesota for four years this is inexcusable, but here we are.  
 
 <table class="image">
 <tr><td><img src="/post-img/mighty-ducks.png" alt=" "/></td></tr>
 </table>  
+
 <i>Mea culpa.</i>
 
 Anyway, I thought it would be neat to investigate the relationship between <b>Penalty minutes</b> and <b> goals scored by player</b>. 
@@ -71,11 +73,14 @@ When we plot <b>season-average</b> penalty minutes against goals scores, it look
  <table class="image">
 <tr><td><img src="/post-img/nhl-uncentered.png" alt=" "/></td></tr>
 </table>  
+
 But, it's a bit messy.  In this figure we are smushing together variability between-players (e.g., high-scorers) and variability within a player (e.g., when someone is having a particularly good or bad season).  
 Now, let's plot the relationship between these two variables when we center them on a player's career average:  
 
  <table class="image">
 <tr><td><img src="/post-img/nhl-centered.png" alt=" "/></td></tr>
 </table>  
+
+
 Here, the relationship becomes more clear. In a given season, when a player has more penalty minutes than their career average, they also score more goals than their career average.  
 Could this just be driven by how much play-time a player gets in a given season? Possibly! But this also illustrates how in this figure we are isolating change within a player, by holding their career averages constant. 
