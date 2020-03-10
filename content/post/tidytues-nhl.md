@@ -56,15 +56,23 @@ merged = merge(season_goals2, player_stats, by = 'player')
 {{< / highlight >}}  
 
 Now we are ready to create our <b> centered variabes </b>. We center each player's **season-average penalty minutes** (<mark>season_penalty</mark>) on their **career-average penalty minutes** (<mark>ave_penalty</mark>) to create the variable <mark>penalty_c</mark>.  
-<penalty_c> now shows how a player's penalty minutes changes from season-to-season, **holding <mark>ave_penalty</mark> constant.  
+<mark>penalty_c</mark> now shows how a player's penalty minutes changes from season-to-season, **holding** <mark>ave_penalty</mark> **constant.**
 Negative values of <mark>penalty_c</mark> indicate seasons where a player had <b>lower</b> than average minutes in the penalty box, and positive values indicate  seasons where a player had <b>higher</b> than average minutes in the penalty box. In this case, average refers to their own personal average. 
 
 {{< highlight go "linenos=table, linenostart=1" >}}
 merged = merged %>%
   mutate(penalty_c = season_penalty - ave_penalty,
-         goals_c = season_goals - ave_goals,
+         goals_c = season_goals - ave_goals)
 {{< / highlight >}}  
 
+# What does it buy us?
 
-  
-  
+
+ <table class="image">
+<tr><td><img src="/post-img/nhl-uncentered" alt=" "/></td></tr>
+</table>  
+
+ <table class="image">
+<tr><td><img src="/post-img/nhl-centered" alt=" "/></td></tr>
+</table>  
+
