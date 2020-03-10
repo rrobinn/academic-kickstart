@@ -30,7 +30,7 @@ I thought that this multi-level data would be a fun way to explore the impact of
 <table class="image">
 <tr><td><img src="/post-img/mighty-ducks.png" alt=" "/></td></tr>
 </table>  
-**Mea culpa.**
+<i>Mea culpa.</i>
 
 Anyway, I thought it would be neat to investigate the relationship between <b>Penalty minutes</b> and <b> goals scored by player</b>. 
 
@@ -66,13 +66,16 @@ merged = merged %>%
 {{< / highlight >}}  
 
 # What does it buy us?
-
-
- <table class="image">
-<tr><td><img src="/post-img/nhl-uncentered" alt=" "/></td></tr>
-</table>  
+When we plot <b>season-average</b> penalty minutes against goals scores, it looks like there might be a relationship between these two variables:  
 
  <table class="image">
-<tr><td><img src="/post-img/nhl-centered" alt=" "/></td></tr>
+<tr><td><img src="/post-img/nhl-uncentered.png" alt=" "/></td></tr>
 </table>  
+But, it's a bit messy.  In this figure we are smushing together variability between-players (e.g., high-scorers) and variability within a player (e.g., when someone is having a particularly good or bad season).  
+Now, let's plot the relationship between these two variables when we center them on a player's career average:  
 
+ <table class="image">
+<tr><td><img src="/post-img/nhl-centered.png" alt=" "/></td></tr>
+</table>  
+Here, the relationship becomes more clear. In a given season, when a player has more penalty minutes than their career average, they also score more goals than their career average.  
+Could this just be driven by how much play-time a player gets in a given season? Possibly! But this also illustrates how in this figure we are isolating change within a player, by holding their career averages constant. 
