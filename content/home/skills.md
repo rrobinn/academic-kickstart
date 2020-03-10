@@ -27,7 +27,7 @@ subtitle = ""
   description = "Longitudinal data analysis, multi-level modeling, time series"  
   
 [[feature]]
-  icon = "fa-chalkboard-teacher"
+  icon = "chalkboard-teacher"
   icon_pack = "fas"
   name = "Teaching & Leadership"
   description = "Course instructor for Intro to Psychology, Graduate Student Representative"
