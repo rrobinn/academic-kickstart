@@ -31,5 +31,11 @@ subtitle = ""
   icon_pack = "fas"
   name = "Teaching & Leadership"
   description = "Course instructor for Intro to Psychology, Graduate Student Representative"
+  
+[[feature]]
+  icon = "laptop-code"
+  icon_pack = "fas"
+  name = "Programming"
+  description = "MATLAB, Python, and Java"
 
 +++
