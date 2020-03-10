@@ -66,7 +66,7 @@ merged = merged %>%
 {{< / highlight >}}  
 
 # What does it buy us?
-When we plot <b>season-average</b> penalty minutes against goals scores, it looks like there might be a relationship between these two variables:  
+When we plot <b>season-average</b> penalty minutes against goals scores, it looks like there might be a relationship between these two variables:   
 
  <table class="image">
 <tr><td><img src="/post-img/nhl-uncentered.png" alt=" "/></td></tr>
