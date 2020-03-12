@@ -57,6 +57,15 @@ player_stats = season_goals %>%
             ave_goals = mean(goals))
 {{< / highlight >}}
 
+```r
+#Test code highight
+player_stats = season_goals %>%
+  dplyr::select(player, penalty_min, goals) %>%
+  group_by(player) %>%
+  summarize(ave_penalty = mean(penalty_min),
+            ave_goals = mean(goals))
+```
+
 Then, I merged player_stats with <mark>season_goals</mark>, my data.frame that holds season-average goals and penalty minutes. 
 {{< highlight go "linenos=table, linenostart=1" >}}
 merged = merge(season_goals2, player_stats, by = 'player')
