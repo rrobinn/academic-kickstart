@@ -15,7 +15,12 @@ image_preview = ""
 
 +++
 
-I've recently started to participate in [Tidy Tuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/), a weekly social data project in R. Each week they release a new dataset on their [GitHub](https://github.com/rfordatascience/tidytuesday). It's a fun opportunity to explore new and interesting data sets.  In this post, I walk through a bit of my code, but you can find the complete code on my [GitHub](https://github.com/rrobinn/tidy-tuesday/tree/master/20200303-HockeyGoals).
+I've recently started to participate in [Tidy Tuesday](https://thomasmock.netlify.com/post/tidytuesday-a-weekly-social-data-project-in-r/), a weekly social data project in R. Each week they release a new dataset on their [GitHub](https://github.com/rfordatascience/tidytuesday). It's a fun opportunity to explore new and interesting data sets. After you do a quick analysis and generate some figures, you're supposed to tweet it with #tidytuesday.
+
+{{< tweet 1236043745721712650 >}}
+
+
+In this post, I walk through a bit of my code, but you can find the complete code on my [GitHub](https://github.com/rrobinn/tidy-tuesday/tree/master/20200303-HockeyGoals).
 
 This week's dataset comes from [HockeyReference.com](https://www.hockey-reference.com/). I used 2 of the downloadable datasets:  
 1. Overall career goals.  
@@ -47,7 +52,7 @@ You can imagine that the relationship between penalty minutes and goals scored c
 If we take each player's season average (for penalty minutes & goals), and subtract it from their career average, we can isolate season-to-season variability. 
 
 # Centering variables
-So how did I center my variables? First, I created a variable that holds career-average penalty minutes and goals for each players.  Let's call it <mark>player_stats</mark>.
+So how did I center my variables? First, I created a variable that holds career-average penalty minutes and goals for each players.  Let's call it `player_stats`.
 
 
 ```r
@@ -58,7 +63,7 @@ player_stats = season_goals %>%
             ave_goals = mean(goals))
 ```
 
-Then, I merged player_stats with <mark>season_goals</mark>, my data.frame that holds season-average goals and penalty minutes. 
+Then, I merged player_stats with `season_goals`, my data.frame that holds season-average goals and penalty minutes. 
 ```r
 merged = merge(season_goals, player_stats, by = 'player')
 ```
@@ -66,7 +71,7 @@ merged = merge(season_goals, player_stats, by = 'player')
 
 
 Now creating the <b> centered variables </b> is a piece of cake.  
-We center each player's **season-average penalty minutes** (`season_penalty`) on their **career-average penalty minutes** (`ave_penalty</mark`) to create the variable `penalty_c`.  (We do the same thing for goals). 
+We center each player's **season-average penalty minutes** (`season_penalty`) on their **career-average penalty minutes** (`ave_penalty`) to create the variable `penalty_c`.  (We do the same thing for goals). 
 
 ```r
 merged = merged %>%
@@ -74,9 +79,9 @@ merged = merged %>%
          goals_c = season_goals - ave_goals)
 ```
 
-<mark>penalty_c</mark> now shows how a player's penalty minutes changes from season-to-season, **holding** <mark>ave_penalty</mark> **constant.**  
+`penalty_c` now shows how a player's penalty minutes changes from season-to-season, **holding** `ave_penalty` **constant.**  
 
-Negative values of <mark>penalty_c</mark> indicate seasons where a player had <b>lower</b> than average minutes in the penalty box, and positive values indicate  seasons where a player had <b>higher</b> than average minutes in the penalty box. In this case, average refers to their own personal average. 
+Negative values of `penalty_c` indicate seasons where a player had <b>lower</b> than average minutes in the penalty box, and positive values indicate  seasons where a player had <b>higher</b> than average minutes in the penalty box. In this case, average refers to their own personal average. 
 
 
 # What does it buy us?
