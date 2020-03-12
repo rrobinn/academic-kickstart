@@ -59,7 +59,7 @@ player_stats = season_goals %>%
 ```
 
 Then, I merged player_stats with <mark>season_goals</mark>, my data.frame that holds season-average goals and penalty minutes. 
-````r
+```r
 merged = merge(season_goals, player_stats, by = 'player')
 ```
 
