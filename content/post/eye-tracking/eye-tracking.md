@@ -10,9 +10,11 @@ image_preview = "eye-tracking-emory.jpg"
 
 +++
 <table class="image">
-<tr><td><img src="/post-img/eye-tracking-emory.jpg" alt="https://news.emory.edu/stories/2013/11/signs_of_autism_in_first_months_of_life/campus.html"/></td></tr>
-</table>  
-
+<caption align="bottom">https://news.emory.edu/stories/2013/11/signs_of_autism_in_first_months_of_life/campus.html
+</caption>
+<tr><td><img src="/post-img/eye-tracking-emory.jpg" alt=""/></td></tr>
+ </table>  
+ 
 Long before they can crawl or even pick up a toy, babies use their eyes to explore the world around them.  
 
 I study how babies learn about other people, and how they learn to interact with others. And since I can’t ask them questions about their thoughts of feelings, or have them participate in laboratory tasks...I use eye-tracking technology to figure out what’s going on inside their tiny heads!
@@ -31,13 +33,12 @@ It's all about connecting those eye movements to what the baby is looking at.  H
 
 We can start to ask questions like: Do babies spend more time looking at the ladies' faces than the background? How does movement impact where they direct their attention to?  
 
-<b>We can take summary statistics of their eye movements</b>, and calculate the proportion of time they look at faces relative to other objects on the screen.  
-<b> We can do time series analyses as well</b>, and look at moment-by-moment changes in their eye-gaze.
-
 <table class="image">
 <tr><td><img src="/post-img/eye-tracking-dancing-ladies.png" alt=" "/></td></tr>
 </table>  
 
+<b>We can take summary statistics of their eye movements</b>, and calculate the proportion of time they look at faces relative to other objects on the screen.  
+<b> We can do time series analyses as well</b>, and look at moment-by-moment changes in their eye-gaze.
 
 
 
