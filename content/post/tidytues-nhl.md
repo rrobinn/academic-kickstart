@@ -66,7 +66,7 @@ merged = merge(season_goals, player_stats, by = 'player')
 
 
 Now creating the <b> centered variables </b> is a piece of cake.  
-We center each player's **season-average penalty minutes** (<mark>season_penalty</mark>) on their **career-average penalty minutes** (<mark>ave_penalty</mark>) to create the variable <mark>penalty_c</mark>.  (We do the same thing for goals). 
+We center each player's **season-average penalty minutes** (`season_penalty`) on their **career-average penalty minutes** (`ave_penalty</mark`) to create the variable `penalty_c`.  (We do the same thing for goals). 
 
 ```r
 merged = merged %>%
