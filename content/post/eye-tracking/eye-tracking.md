@@ -10,7 +10,7 @@ image_preview = "eye-tracking-emory.jpg"
 
 +++
 <table class="image">
-<tr><td><img src="/post-img/eye-tracking-emory.jpg" alt=" "/></td></tr>
+<tr><td><img src="/post-img/eye-tracking-emory.jpg" alt="https://news.emory.edu/stories/2013/11/signs_of_autism_in_first_months_of_life/campus.html"/></td></tr>
 </table>  
 
 Long before they can crawl or even pick up a toy, babies use their eyes to explore the world around them.  
@@ -18,7 +18,7 @@ Long before they can crawl or even pick up a toy, babies use their eyes to explo
 I study how babies learn about other people, and how they learn to interact with others. And since I can’t ask them questions about their thoughts of feelings, or have them participate in laboratory tasks...I use eye-tracking technology to figure out what’s going on inside their tiny heads!
 
 # How it works
-Think of the eye-tracker as a <i>very</i> high-speed camera. It sends out near-infrared light towards the infant, which then reflects off the pupil and cornea. These reflections are tracked by the camera so that we know where the baby is looking.  
+Think of the eye-tracker as a <i>very</i> high-speed camera. It sends out near-infrared light towards the infant, which then reflects off the pupil and cornea. These reflections are tracked by the camera so that we know where the baby is looking.  For some questions like "do babies like to look at colorful things?" this sampling is overkill. For others, like "what does the structure in the noise of eye movements tell us about attention," this high-density sampling is critical.
 
 <table class="image">
 <tr><td><img src="/post-img/eye-tracking-mom.jpg" alt=" "/></td></tr>
