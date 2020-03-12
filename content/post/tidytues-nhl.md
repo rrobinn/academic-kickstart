@@ -28,6 +28,7 @@ This week's dataset comes from [HockeyReference.com](https://www.hockey-referenc
 
 I thought that this multi-level data would be a fun way to explore the impact of how <b> centering variables</b> can clarify which level of analysis is driving the relationship.  
 
+{{% toc %}}
 
 # The question
 <b>Is there a relationship between aggressive play (time spent in the penalty box) and scoring?</b>  On the one hand, more aggressive play could mean more goals. On the other hand, too much time in the penalty box takes you out of the game and could minimize your opportunity to score.  
