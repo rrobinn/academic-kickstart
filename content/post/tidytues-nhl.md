@@ -2,7 +2,7 @@
 title = "NHL Data & Tidy Tuesday"
 date = "2020-03-09"
 authors = ["Robin Sifre"]
-summary=""
+summary="Exploring the relationship between penalty minutes and goals scores in the NHL."
 
 
 # Featured image thumbnail (optional)
