@@ -1,5 +1,5 @@
 +++
-title = "Tidy Tuesday"
+title = "NFL Data & Tidy Tuesday"
 date = "2020-03-09"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
