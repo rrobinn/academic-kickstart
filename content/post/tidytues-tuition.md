@@ -47,7 +47,7 @@ ggplot(data = ., aes(x = yr, y = tuition_cost, group_by(type), color = type) ) +
 <tr><td><img src="/post-img/tuition_increase.png" alt=" "/></td></tr>
 </table>  
 As expected, tuition has been rising for both public and private universities (plotted in pink). Tuition for private institutions (green) appears to be increasing at a faster rate than Public institutions (blue).  
-
+  
 - [x] Tuition <b>is</b> rising when we adjust for inflation.  
 
 - [x] It is rising in both Public and Private Institutions 
@@ -86,6 +86,11 @@ in_state_tuition:public_dummy 4.384e-01  1.331e-01   3.293  0.00104 **
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 ```
 We can use these Estimates to better interpret this statistical model:  
-- <b>How much more are earnings for graduates when they attend schools with higher tuition?</b> We know that for every $1 increase in tuition, earnings increase by $0.47 (all else equal). This means, a $5,000 increase in tuition is associated with $2,385 more in yearly earnings.
-- <b> How much more are students at Public institutions earning? </b>. The estimate for `public_dummy` tells us that on average, Students at Public institutions are earning $5,792 more. However, this is where "all else equal" becomes important.  Not many Private schools are in the same tuition-range as Public schools. 
+- <b>How much more are earnings for graduates when they attend schools with higher tuition?</b>   
+We know that for every $1 increase in tuition, earnings increase by $0.47 (all else equal). This means, a $5,000 increase in tuition is associated with $2,385 more in yearly earnings.  
+  
+- <b> How much more are students at Public institutions earning? </b>. The estimate for `public_dummy` tells us that on average, Students at Public institutions are earning $5,792 more. However, this is where "all else equal" becomes important.  Not many Private schools are in the same tuition-range as Public schools. Students at the Private schools that cost more are out-earning the Public school students.
+
+- <b> Seeing the forest through the trees</b>.  
+Our intercept estimate indicates that the average early-career salary is $34,650. With today's average yearly tuition hovering well-above $20k, it really makes you think about the bang for your buck when picking a school. 
 
