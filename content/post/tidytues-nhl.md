@@ -49,36 +49,30 @@ If we take each player's season average (for penalty minutes & goals), and subtr
 # Centering variables
 So how did I center my variables? First, I created a variable that holds career-average penalty minutes and goals for each players.  Let's call it <mark>player_stats</mark>.
 
-{{< highlight go "linenos=table, linenostart=1" >}}
-player_stats = season_goals %>%
-  dplyr::select(player, penalty_min, goals) %>%
-  group_by(player) %>%
-  summarize(ave_penalty = mean(penalty_min),
-            ave_goals = mean(goals))
-{{< / highlight >}}
 
 ```r
-#Test code highight
 player_stats = season_goals %>%
   dplyr::select(player, penalty_min, goals) %>%
   group_by(player) %>%
-  summarize(ave_penalty = mean(penalty_min),
+  summarize(ave_penalty = mean(penalty_min), #Career-average stats for player 
             ave_goals = mean(goals))
 ```
 
 Then, I merged player_stats with <mark>season_goals</mark>, my data.frame that holds season-average goals and penalty minutes. 
-{{< highlight go "linenos=table, linenostart=1" >}}
-merged = merge(season_goals2, player_stats, by = 'player')
-{{< / highlight >}}  
+````r
+merged = merge(season_goals, player_stats, by = 'player')
+```
+
+
 
 Now creating the <b> centered variables </b> is a piece of cake.  
 We center each player's **season-average penalty minutes** (<mark>season_penalty</mark>) on their **career-average penalty minutes** (<mark>ave_penalty</mark>) to create the variable <mark>penalty_c</mark>.  (We do the same thing for goals). 
 
-{{< highlight go "linenos=table, linenostart=1" >}}
+```r
 merged = merged %>%
   mutate(penalty_c = season_penalty - ave_penalty,
          goals_c = season_goals - ave_goals)
-{{< / highlight >}}  
+```
 
 <mark>penalty_c</mark> now shows how a player's penalty minutes changes from season-to-season, **holding** <mark>ave_penalty</mark> **constant.**  
 
