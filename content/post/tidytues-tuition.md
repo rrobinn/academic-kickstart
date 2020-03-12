@@ -94,3 +94,8 @@ We know that for every $1 increase in tuition, earnings increase by $0.47 (all e
 - <b> Seeing the forest through the trees</b>.  
 Our intercept estimate indicates that the average early-career salary is $34,650. With today's average yearly tuition hovering well-above $20k, it really makes you think about the bang for your buck when picking a school. 
 
+Feel free to post a comment here, or comment on my original tweet:
+{{< tweet 1237466192761233409 >}}
+
+
+
