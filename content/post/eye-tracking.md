@@ -6,7 +6,7 @@ summary="Why I record the eye movements of tiny humans"
 
 
 # Featured image thumbnail (optional)
-image_preview = "/post-img/eye-tracking-emory.jpg"
+image_preview = "eye-tracking-emory.jpg"
 
 +++
 Long before they can crawl or even pick up a toy, babies use their eyes to explore the world around them.  
@@ -26,8 +26,10 @@ The eye-tracker that I use collects 300 samples a second. That means that we get
 It's all about connecting those eye movements to what the baby is looking at. 
 
 <table class="image">
-<tr><td><img src="/post-img/eye-tracking-dancing-ladies" alt=" "/></td></tr>
+<tr><td><img src="/post-img/eye-tracking-dancing-ladies.png" alt=" "/></td></tr>
 </table>  
+
+
 
 
 
