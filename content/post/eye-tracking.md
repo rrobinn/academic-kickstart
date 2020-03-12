@@ -2,7 +2,7 @@
 title = "Eye tracking"
 date = "2020-03-09"
 authors = ["Robin Sifre"]
-summary=""
+summary="Why I record the eye movements of tiny humans"
 
 
 # Featured image thumbnail (optional)
@@ -16,9 +16,15 @@ I study how babies learn about other people, and how to interact with others. An
 # How it works
 Think of the eye-tracker as a <i>very</i> high-speed camera. It sends out near-infrared light towards the infant, which then reflects off the pupil and cornea. These reflections are tracked by the camera so that we know where the baby is looking.  
 
+<table class="image">
+<tr><td><img src="/post-img/eye-tracking-mom.jpg" alt=" "/></td></tr>
+</table>  
+
 The eye-tracker that I use collects 300 samples a second. That means that we get a read-out of where baby is looking every 3.3ms. 
 
 # What kinds of questions can we ask? 
+It's all about connecting those eye movements to what the baby is looking at. 
+
 <table class="image">
 <tr><td><img src="/post-img/eye-tracking-dancing-ladies" alt=" "/></td></tr>
 </table>  
