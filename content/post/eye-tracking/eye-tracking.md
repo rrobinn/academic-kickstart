@@ -9,6 +9,10 @@ summary="Why I record the eye movements of tiny humans"
 image_preview = "eye-tracking-emory.jpg"
 
 +++
+<table class="image">
+<tr><td><img src="/post-img/eye-tracking-emory.jpg" alt=" "/></td></tr>
+</table>  
+
 Long before they can crawl or even pick up a toy, babies use their eyes to explore the world around them.  
 
 I study how babies learn about other people, and how they learn to interact with others. And since I can’t ask them questions about their thoughts of feelings, or have them participate in laboratory tasks...I use eye-tracking technology to figure out what’s going on inside their tiny heads!
@@ -23,12 +27,16 @@ Think of the eye-tracker as a <i>very</i> high-speed camera. It sends out near-i
 The eye-tracker that I use collects 300 samples a second. That means that we get a read-out of where baby is looking every 3.3ms. 
 
 # What kinds of questions can we ask? 
-It's all about connecting those eye movements to what the baby is looking at. 
+It's all about connecting those eye movements to what the baby is looking at.  Here is an example of a still from a movie we show babies (they <i>love</i> this movie, a 20-second clip of three ladies dancing). The pink blobs represent where the baby is looking.  
+
+We can start to ask questions like: Do babies spend more time looking at the ladies' faces than the background? How does movement impact where they direct their attention to?  
+
+<b>We can take summary statistics of their eye movements</b>, and calculate the proportion of time they look at faces relative to other objects on the screen.  
+<b> We can do time series analyses as well</b>, and look at moment-by-moment changes in their eye-gaze.
 
 <table class="image">
 <tr><td><img src="/post-img/eye-tracking-dancing-ladies.png" alt=" "/></td></tr>
 </table>  
-
 
 
 
