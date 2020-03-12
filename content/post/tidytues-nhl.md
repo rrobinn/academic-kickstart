@@ -11,7 +11,7 @@ summary=""
 
 # Featured image thumbnail (optional)
 image_preview = ""
-
+markup: blackfriday
 
 +++
 
