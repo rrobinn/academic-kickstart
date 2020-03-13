@@ -69,7 +69,8 @@ user_groups:
 - Visitors
 ---
 
-I'm a Ph.D. candidate at the University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>computational psychiatry</b>.
+I'm a Ph.D. candidate at the University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>computational psychiatry</b>.  
+I'm in the final stretch of my Ph.D., and am pursuing postdocs, as well as data science opportunities outside of academia.
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}.  
 
 
