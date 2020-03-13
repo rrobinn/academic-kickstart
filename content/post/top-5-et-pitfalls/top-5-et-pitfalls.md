@@ -54,7 +54,7 @@ Man, some eye tracking tasks are BORING. If you pay an undergrad $10 to stare at
 <table class="image">
 <caption align="bottom">Imagine looking at these bad boys for 45 minutes.
 </caption>
-<tr><td><img src="/post-img/face-et" alt=" "/></td></tr>
+<tr><td><img src="/post-img/face-et.png" alt=" "/></td></tr>
 </table>  
 
 # 5. Quality is correlated with your outcome or varies by group.  
