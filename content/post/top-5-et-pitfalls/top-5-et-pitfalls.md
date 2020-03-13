@@ -54,10 +54,10 @@ Man, some eye tracking tasks are BORING. If you pay an undergrad $10 to stare at
 <table class="image">
 <caption align="bottom">Imagine looking at these bad boys for 45 minutes.
 </caption>
-<tr><td><img src="/post-img/faec-et" alt=" "/></td></tr>
+<tr><td><img src="/post-img/face-et" alt=" "/></td></tr>
 </table>  
 
-#5. Quality is correlated with your outcome or varies by group.  
+# 5. Quality is correlated with your outcome or varies by group.  
 
 Let's say you're comparing 5-year-olds to 10-year-olds, and find that 10-year-olds are way better at a visual search task. Time to publish, right? Not so fast! You need to make sure that your results aren't driven by differences in data quality. Otherwise, you <i>think</i> you're seeing a cool developmental trend, but you're really just looking at how eye tracking data quality improves with age.  
 
