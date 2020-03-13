@@ -3,7 +3,7 @@ title = "Top 5 Eye Tracking Fails"
 date = "2020-03-12"
 authors = ["Robin Sifre"]
 summary="And how to avoid them"
-
+tags=["eye tracking", "methods", "data quality"]
 
 # Featured image thumbnail (optional)
 image_preview = ""

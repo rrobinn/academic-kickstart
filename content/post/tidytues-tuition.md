@@ -3,7 +3,7 @@ title = "College Tuition & Career Earnings"
 date = "2020-03-12"
 authors = ["Robin Sifre"]
 summary="Is there a relationship between cost of tuition and potential salary earnings?"
-
+tags=["tidy tuesday", "R", "statistics", "ggplot", "data science"]
 
 # Featured image thumbnail (optional)
 image_preview = ""
