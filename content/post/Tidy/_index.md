@@ -1,5 +1,5 @@
 ---
-title: Tidy 
+title: Tidy Tuesday
 
 # View.
 #   1 = List
