@@ -4,7 +4,7 @@ date = "2020-03-12"
 authors = ["Robin Sifre"]
 summary="And how to avoid them"
 tags=["eye tracking", "methods", "data quality"]
-
+categories=["Eye Tracking"]
 # Featured image thumbnail (optional)
 image_preview = ""
 

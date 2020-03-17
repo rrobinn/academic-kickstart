@@ -4,6 +4,7 @@ date = "2020-03-09"
 authors = ["Robin Sifre"]
 summary="Why I record the eye movements of tiny humans"
 tags=["eye tracking", "babies", "methods", "research"]
+categories=["Eye Tracking"]
 
 # Featured image thumbnail (optional)
 image_preview = "eye-tracking-emory.jpg"
