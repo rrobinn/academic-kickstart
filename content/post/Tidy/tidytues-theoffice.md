@@ -39,14 +39,41 @@ $ air_date         <fct> 2005-03-24, 2005-03-24, 2005-03-24, 2005-03-24, 2005-03
 What we have is every line (`text`) spoken by every `character` organized by `episode` and `season`. 
 
 # Prepping the data
-First, I used `unnest_tokens` to split the `text` variables so that each word token had it's own row.  After that, I removed the stop_words (e.g. words that are not useful for analyses, like "the" and "a")
+First, I used `unnest_tokens` to split the `text` variable so that each word is in its own row.  
 ```r
 # Tokenize dialogue 
 token.schrute = schrute %>%
   tidytext::unnest_tokens(word, text)
 dplyr::glimpse(token.schrute) #570,450 observations
+```
 
+After that, I used `stop_words` to generate a list of stop words, or words that are not useful for analyses (like "the" and "a").
+{{% notice tip %}}
+You can use `anti_join` to return all rows from x (in this case, `token.schrute`) where there are NOT matching values in y (in this cast, `stop_words`). I normally would have used `dplyr::filter` for this, so this was a fun new trick for me. 
+{{% /notice %}}
+
+```r
 stop_words = tidytext::stop_words
 tidy.token.schrute = token.schrute %>%
   dplyr::anti_join(stop_words, by = 'word') 
 ```
+# What are the most common words?
+
+```r
+tidy.token.schrute %>%
+  dplyr::count(word, sort = TRUE) %>%
+  dplyr::filter(n > 400) %>%
+  dplyr::mutate(word = stats::reorder(word, n)) %>%
+  ggplot2::ggplot(ggplot2::aes(word, n)) +
+  ggplot2::geom_col() +
+  ggplot2::xlab(NULL) +
+  ggplot2::coord_flip() +
+  ggplot2::theme_minimal()
+```
+<table class="image">
+<tr><td><img src="/post-img/Most_used_words.pdf" alt=" "/></td></tr>
+</table>  
+
+
+
+
