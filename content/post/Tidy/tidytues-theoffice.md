@@ -48,9 +48,10 @@ dplyr::glimpse(token.schrute) #570,450 observations
 ```
 
 After that, I used `stop_words` to generate a list of stop words, or words that are not useful for analyses (like "the" and "a").
-{{% notice tip %}}
+
+{{% alert note %}}
 You can use `anti_join` to return all rows from x (in this case, `token.schrute`) where there are NOT matching values in y (in this cast, `stop_words`). I normally would have used `dplyr::filter` for this, so this was a fun new trick for me. 
-{{% /notice %}}
+{{% /alert %}}
 
 ```r
 stop_words = tidytext::stop_words
@@ -58,9 +59,10 @@ tidy.token.schrute = token.schrute %>%
   dplyr::anti_join(stop_words, by = 'word') 
 ```
 Now that we've removed the stop words, we can visualize the most common words in this dataset. 
-{{% notice tip %}}
+
+{{% alert note %}}
 You can use `reorder` to order your geom_col() figure. 
-{{% /notice %}}
+{{% /alert %}}
 
 
 ```r
