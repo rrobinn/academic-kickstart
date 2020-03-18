@@ -80,11 +80,12 @@ You can use `reorder` to order your geom_col() figure. Otherwise, the bars will 
 {{% /alert %}}
 
 
-{{< figure library="true" src="Most_used_words.pdf" title="Most used words" lightbox="true" >}}
+{{< figure library="true" src="Most_used_words.png" title="Most used words" lightbox="true" >}}
 
 
 # Positive vs Negatively charged words
-Now things get interesting! `tidytext` has a function called `get_sentiments` that provides a dictionary of words, and whether they have a positive or negative connotation (neutral connotations are coded as NA). With just a few lines of code, we can now tag each token as either "positive" or "negative."  
+Now things get interesting! `tidytext` has a function called `get_sentiments` that a sentiment lexicon. There are a few you can choose from - I opted for one that determine whether a word has a positive or negative connotation (neutral connotations are coded as NA).  
+With just a few lines of code, we can now tag each token as either "positive" or "negative."  
 
  ```r
  sentiments=get_sentiments("bing")
@@ -96,7 +97,7 @@ Now things get interesting! `tidytext` has a function called `get_sentiments` th
 <tr><td><img src="word_bar.pdf" alt=" "/></td></tr>
 </table>  
 
-Yet another way to visualize this is a <b>comparative word cloud</b>.
+Yet another way to visualize this is a <b>comparative word cloud</b>. 
 ```r
 bing_word_counts %>%
   acast(word~sentiment, value.var='n', fill = 0) %>%
@@ -106,6 +107,16 @@ bing_word_counts %>%
 <table class="image">
 <tr><td><img src="comparison_cloud.pdf" alt=" "/></td></tr>
 </table>  
+
+# Which characters use more positive vs negative words?
+First, we need to join sentiment data with 
+```r
+char.sentiment= tidy.token.schrute %>%
+  inner_join(sentiments, by = 'word') %>% 
+  count(character, sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentimentc = positive-negative) 
+```
 
 
 
