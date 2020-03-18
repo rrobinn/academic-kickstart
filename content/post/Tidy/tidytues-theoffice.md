@@ -80,10 +80,33 @@ You can use `reorder` to order your geom_col() figure. Otherwise, the bars will 
 {{% /alert %}}
 
 <table class="image">
-<tr><td><img src="/img/Most_used_words.pdf" alt=" "/></td></tr>
+<tr><td><img src="img/Most_used_words.pdf" alt=" "/></td></tr>
 </table>  
 
-# 
+# Positive vs Negatively charged words
+Now things get interesting! `tidytext` has a function called `get_sentiments` that provides a dictionary of words, and whether they have a positive or negative connotation (neutral connotations are coded as NA). With just a few lines of code, we can now tag each token as either "positive" or "negative."  
+
+ ```r
+ sentiments=get_sentiments("bing")
+ bing_word_counts = tidy.token.schrute %>%
+  inner_join(sentiments%>%filter(sentiment=='positive'|sentiment=='negative')) %>%
+  count(word, sentiment, sort = TRUE)
+ ```
+<table class="image">
+<tr><td><img src="img/word_bar.pdf" alt=" "/></td></tr>
+</table>  
+
+Yet another way to visualize this is a <b>comparative word cloud</b>.
+```r
+bing_word_counts %>%
+  acast(word~sentiment, value.var='n', fill = 0) %>%
+  comparison.cloud(colors=c("#F8766D", "#00BFC4"), 
+                   max.words=100)
+```
+<table class="image">
+<tr><td><img src="img/comparison_cloud.pdf" alt=" "/></td></tr>
+</table>  
+
 
 
 
