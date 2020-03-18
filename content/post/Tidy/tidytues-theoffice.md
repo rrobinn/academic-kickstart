@@ -136,4 +136,6 @@ char.sentiment %>%
 ```
 {{< figure library="true" src="characters_sentiment.png" title="No surprises here: Jim is the post positive character, Dwight is the most negative" lightbox="true" >}}
 
+{{< figure library="true" src="Business_Ethics_Jim's_Stopwatch.png" title="" lightbox="true" >}}
+
 
