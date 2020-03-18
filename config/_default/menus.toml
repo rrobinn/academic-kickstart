@@ -10,12 +10,12 @@
 
 [[main]]
   name = "Recent Posts"
-  url = "#posts"
+  url = "/post"
   weight = 20
 
 [[main]]
   name = "All Posts"
-  url="#all_post"
+  url="/all_post"
   weight = 25
 
 [[main]]
