@@ -15,7 +15,7 @@
 
 [[main]]
   name = "All Posts"
-  url=#all_post
+  url="#all_post"
   weight = 25
 
 [[main]]
