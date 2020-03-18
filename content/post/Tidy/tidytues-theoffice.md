@@ -80,7 +80,7 @@ You can use `reorder` to order your geom_col() figure. Otherwise, the bars will 
 {{% /alert %}}
 
 
-{{< figure library="true" src="Most_used_words.png" title="Most used words" lightbox="true" >}}
+{{< figure library="true" src="Most_used_words.png" title="The most used words in <i>The Office</i>" lightbox="true" >}}
 
 
 # Positive vs Negatively charged words
@@ -104,12 +104,12 @@ bing_word_counts %>%
   comparison.cloud(colors=c("#F8766D", "#00BFC4"), 
                    max.words=100)
 ```
-<table class="image">
-<tr><td><img src="comparison_cloud.pdf" alt=" "/></td></tr>
-</table>  
+
+{{< figure library="true" src="comparison_cloud.png" title="Most used words" lightbox="true" >}}
+
 
 # Which characters use more positive vs negative words?
-First, we need to join sentiment data with 
+First, we need to join sentiment data with the token data. I also created a variable `sentimentc` which subtracts the total # of negative words a character says from the total # of positive words they say.
 ```r
 char.sentiment= tidy.token.schrute %>%
   inner_join(sentiments, by = 'word') %>% 
@@ -118,6 +118,20 @@ char.sentiment= tidy.token.schrute %>%
   mutate(sentimentc = positive-negative) 
 ```
 
-
+Now, we can see which characters are are more positive vs. negative.
+```r
+char.sentiment %>% 
+  filter(negative +positive >300) %>%
+  mutate(sent_dummy = ifelse(sentimentc<0, 'More Negative', 'More Positive')) %>%
+  mutate(character = reorder(character, sentimentc)) %>%
+  ggplot(aes(character, sentimentc, fill = sent_dummy)) +
+  geom_col() +
+  coord_flip() + 
+  labs(y='Emotional Charge of Dialogue \n (Positive - Negative Words)', x = 'Character') +
+  theme_bw() + 
+  theme(legend.position='none', axis.text.x=element_text(size=12), axis.title.x = element_text(size=14, face = 'bold'),
+        axis.text.y=element_text(size=12), axis.title.y=element_text(size=14, face='bold'))
+```
+{{< figure library="true" src="characters_sentiment.png" title="No surprises here: Jim is the post positive character, Dwight is the most negative" lightbox="true" >}}
 
 
