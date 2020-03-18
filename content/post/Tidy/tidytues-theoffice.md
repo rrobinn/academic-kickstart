@@ -39,7 +39,7 @@ $ air_date         <fct> 2005-03-24, 2005-03-24, 2005-03-24, 2005-03-24, 2005-03
 What we have is every line (`text`) spoken by every `character` organized by `episode` and `season`. 
 
 # Prepping the data
-First, I used `unnest_tokens` to split the `text` variable so that each word is in its own row.  
+First, I used `unnest_tokens` to split the `text` variable so that each word is in its own row.  This turns streams of dialogue into more manageable "tokens." 
 ```r
 # Tokenize dialogue 
 token.schrute = schrute %>%
@@ -47,22 +47,21 @@ token.schrute = schrute %>%
 dplyr::glimpse(token.schrute) #570,450 observations
 ```
 
-After that, I used `stop_words` to generate a list of stop words, or words that are not useful for analyses (like "the" and "a").
+After that, I used `stop_words` to generate a list of <b>stop words</b>. These are words that are not useful for analyses (like "the" and "a").
 
-{{% alert note %}}
-You can use `anti_join` to return all rows from x (in this case, `token.schrute`) where there are NOT matching values in y (in this cast, `stop_words`). I normally would have used `dplyr::filter` for this, so this was a fun new trick for me. 
-{{% /alert %}}
+
 
 ```r
 stop_words = tidytext::stop_words
 tidy.token.schrute = token.schrute %>%
   dplyr::anti_join(stop_words, by = 'word') 
 ```
+{{% alert note %}}
+Here I used `anti_join` to return all rows from `token.schrute` that do NOT have matching values in `stop_words`.  
+{{% /alert %}}
+
 Now that we've removed the stop words, we can visualize the most common words in this dataset. 
 
-{{% alert note %}}
-You can use `reorder` to order your geom_col() figure. 
-{{% /alert %}}
 
 
 ```r
@@ -76,8 +75,12 @@ tidy.token.schrute %>%
   ggplot2::coord_flip() +
   ggplot2::theme_minimal()
 ```
+{{% alert note %}}
+You can use `reorder` to order your geom_col() figure. Otherwise, the bars will not be in order based on
+{{% /alert %}}
+
 <table class="image">
-<tr><td><img src="/post-img/Most_used_words.pdf" alt=" "/></td></tr>
+<tr><td><img src="/img/Most_used_words.pdf" alt=" "/></td></tr>
 </table>  
 
 # 
