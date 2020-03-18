@@ -11,7 +11,7 @@ highlight = true
 #   3 = MLA
 list_format = 2
 
-view:3
+view=3
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
