@@ -57,7 +57,11 @@ stop_words = tidytext::stop_words
 tidy.token.schrute = token.schrute %>%
   dplyr::anti_join(stop_words, by = 'word') 
 ```
-# What are the most common words?
+Now that we've removed the stop words, we can visualize the most common words in this dataset. 
+{{% notice tip %}}
+You can use `reorder` to order your geom_col() figure. 
+{{% /notice %}}
+
 
 ```r
 tidy.token.schrute %>%
@@ -74,6 +78,7 @@ tidy.token.schrute %>%
 <tr><td><img src="/post-img/Most_used_words.pdf" alt=" "/></td></tr>
 </table>  
 
+# 
 
 
 
