@@ -16,6 +16,8 @@ With all of the COVID-19 related stress and my quickly-emerging cabin fever, I w
 
 Rather than try to investigate hard-hitting questions about whether Michael's incompetency predicts output at Dunder Mifflin, I decided to use this opportunity to familiarize myself with `tidytext`, a package designed for text mining. This [vignette](https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html) is a great introduction.  
 
+As always, you can find my complete code of my [Github](https://github.com/rrobinn/tidy-tuesday/tree/master/20200318-The-Office).
+
 # The data
 Let's take a look at the data.  
 
@@ -87,15 +89,15 @@ You can use `reorder` to order your geom_col() figure. Otherwise, the bars will 
 Now things get interesting! `tidytext` has a function called `get_sentiments` that a sentiment lexicon. There are a few you can choose from - I opted for one that determine whether a word has a positive or negative connotation (neutral connotations are coded as NA).  
 With just a few lines of code, we can now tag each token as either "positive" or "negative."  
 
+ We can also check and see which are the most highly used words that have a positive or negative sentiment. 
  ```r
  sentiments=get_sentiments("bing")
  bing_word_counts = tidy.token.schrute %>%
   inner_join(sentiments%>%filter(sentiment=='positive'|sentiment=='negative')) %>%
   count(word, sentiment, sort = TRUE)
  ```
-<table class="image">
-<tr><td><img src="word_bar.pdf" alt=" "/></td></tr>
-</table>  
+{{< figure library="true" src="word_bar.pdf" title="" lightbox="true" >}}
+
 
 Yet another way to visualize this is a <b>comparative word cloud</b>. 
 ```r
