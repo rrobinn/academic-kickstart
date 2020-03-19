@@ -11,4 +11,9 @@ view: 3
 header:
   caption: ""
   image: ""
+  
+image:
+  placement: 1
+  focal_point: "Center"
+  preview_only: false
 ---
