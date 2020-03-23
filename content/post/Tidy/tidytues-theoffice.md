@@ -16,6 +16,8 @@ With all of the COVID-19 related stress and my quickly-emerging cabin fever, I w
 
 Rather than try to investigate hard-hitting questions about whether Michael's incompetency predicts output at Dunder Mifflin, I decided to use this opportunity to familiarize myself with `tidytext`, a package designed for text mining. This [vignette](https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html) is a great introduction.  
 
+My post and code were also featured on the [TidyX Screencast](http://optimumsportsperformance.com/blog/tidyx-episode-2-sentiment-analysis-word-clouds/)!
+
 As always, you can find my complete code of my [Github](https://github.com/rrobinn/tidy-tuesday/tree/master/20200318-The-Office).
 
 # The data
@@ -134,7 +136,7 @@ char.sentiment %>%
   theme(legend.position='none', axis.text.x=element_text(size=12), axis.title.x = element_text(size=14, face = 'bold'),
         axis.text.y=element_text(size=12), axis.title.y=element_text(size=14, face='bold'))
 ```
-{{< figure library="true" src="characters_sentiment.png" title="No surprises here: Jim is the post positive character, Dwight is the most negative" lightbox="true" >}}
+{{< figure library="true" src="characters_sentiment.png" title="No surprises here: Jim is the most positive character, Dwight is the most negative" lightbox="true" >}}
 
 {{< figure library="true" src="Business_Ethics_Jim's_Stopwatch.png" title="" lightbox="true" >}}
 
