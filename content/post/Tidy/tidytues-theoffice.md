@@ -9,7 +9,7 @@ categories=["Tidy Tuesday"]
 #image_preview = "img/comparison_cloud.png"
 
 [header]
-image="img/comparison_cloud.png"
+image="comparison_cloud.png"
 preview=true
 
 +++
