@@ -6,7 +6,11 @@ summary="My first venture into text mining"
 tags=["tidy tuesday", "R", "ggplot", "data science"]
 categories=["Tidy Tuesday"]
 # Featured image thumbnail (optional)
-image_preview = "img/comparison_cloud.png"
+#image_preview = "img/comparison_cloud.png"
+
+[header]
+image="img/comparison_cloud.png"
+preview=true
 
 +++
 
