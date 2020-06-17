@@ -43,8 +43,14 @@ This approach leverages eye-tracking time series data to infer the extent to whi
 # Find out more  
 For more information on this project, please check out [my github](https://github.com/rrobinn/fractal-eye-analyses).  
 
-Here you'll find nitty-gritty information on how I applied [Multifractal Detrended Fluctuation Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3366552/) to eye-tracking data.  
+Here you'll find nitty-gritty information on how I:  
+1. Created time series from 300 Hz eye-tracking data.  
+2. Used  [Multifractal Detrended Fluctuation Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3366552/) to calculate the fractality of each time series.  
+3. Built statistical model of how babies' attention becomes more coordinated during the first years of life.  
+
+(Here's a sneak peak).  
 
 {{< figure library="true" src="xy_coord.png" title="Step 1. Extract (x,y) coordinates of where infant is looking" lightbox="true" >}}
 {{< figure library="true" src="amplitude.png" title="Step 2. Create unidimensional time series by calculating amplitude (e.g. change in eye-gaze position from one moment to the next)" lightbox="true" >}}
+{{< figure library="true" src="palmer_fig1.png" title="Step 3. Figure from Palmer et al. (2018). (a) Simulated time series noises. (b) "Power law" relation between power and frequency of fluctuations in respective time series. Scaling exponents close to 1 (Pink Noise) indicate a fractal structure." lightbox="true" >}}
 
