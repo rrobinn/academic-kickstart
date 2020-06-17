@@ -9,7 +9,7 @@ highlight = true
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
-list_format = 2
+list_format = 0
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
