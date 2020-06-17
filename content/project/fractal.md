@@ -24,5 +24,5 @@ caption = ""
 
 +++
 
-Test
+An infant sits in daycare when she hears her mother’s voice. She immediately stops playing with her blocks, and a flurry of coordinated attention processes begin to coordinate in her brain. She must disengage from the enticing blocks, and search for her mother amidst a room filled with competing distractors. This seemingly simple behavior requires the recruitment – and the coordination of – multiple developing attention processes.
 
