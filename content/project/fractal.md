@@ -1,5 +1,5 @@
 +++
-title = "Finding structure in the noise: What the fractal structure of eye-tracking time series can tell us about attention"
+title = "Finding structure in the noise: What fractals and time series data can tell us about attention"
 date = "2020-06-17"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -39,3 +39,5 @@ I measure the overall complexity and coordination of infants’ attention by qua
 
 This approach leverages eye-tracking time series data to infer the extent to which interactions between these sub-processes are well-coordinated. Research with adults has shown that they are faster to find target objects when their eye-gaze shows these fractal signatures, suggesting that flexible coordination between attention sub-processes is critical for efficient visual exploration (Aks et al., 2002).
 
+# Find out more  
+For more information on this project, please check out [my github](https://github.com/rrobinn/fractal-eye-analyses). Here you'll find nitty-gritty information on how I applied [Multifractal Detrended Fluctuation Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3366552/) to eye-tracking data.
