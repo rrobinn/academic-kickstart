@@ -1,6 +1,6 @@
 +++
-title = "Finding structure in the noise: What the fractal structure of eye-tracking time series data can tell us about attention"
-date = "2020-01-21"
+title = "Finding structure in the noise: What the fractal structure of eye-tracking time series datasample_et can tell us about attention"
+date = "2020-06-17"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = [" Robin Sifre", "Isabella Stallworthy", "Daniel Berry", "Jed Elison"]
@@ -19,7 +19,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "sample_et"
 caption = ""
 
 +++
