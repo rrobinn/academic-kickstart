@@ -37,7 +37,14 @@ I fill this gap by applying methods from Complexity Science to study infant atte
 
 I measure the overall complexity and coordination of infants’ attention by quantifying the <i>fractality</i> of their eye-gaze. Fractality refers to nested patterns of variability that are apparent across multiple measurement scales, resulting in a <i>self-similarity</i> over time (Van Orden et al., 2011). <u>Fractal organization is a critical feature of healthy cognitive and psychobiological systems. It is thought to reflect coordinated systems that are highly self-organized, yet also flexible to change</u>.  
 
-This approach leverages eye-tracking time series data to infer the extent to which interactions between these sub-processes are well-coordinated. Research with adults has shown that they are faster to find target objects when their eye-gaze shows these fractal signatures, suggesting that flexible coordination between attention sub-processes is critical for efficient visual exploration (Aks et al., 2002).
+This approach leverages eye-tracking time series data to infer the extent to which interactions between these sub-processes are well-coordinated. Research with adults has shown that they are faster to find target objects when their eye-gaze shows these fractal signatures, suggesting that flexible coordination between attention sub-processes is critical for efficient visual exploration (Aks et al., 2002).  
+
 
 # Find out more  
-For more information on this project, please check out [my github](https://github.com/rrobinn/fractal-eye-analyses). Here you'll find nitty-gritty information on how I applied [Multifractal Detrended Fluctuation Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3366552/) to eye-tracking data.
+For more information on this project, please check out [my github](https://github.com/rrobinn/fractal-eye-analyses).  
+
+Here you'll find nitty-gritty information on how I applied [Multifractal Detrended Fluctuation Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3366552/) to eye-tracking data.  
+
+{{< figure library="true" src="xy_coord.png" title="Step 1. Extract (x,y) coordinates of where infant is looking" lightbox="true" >}}
+{{< figure library="true" src="amplitude.png" title="Step 2. Create unidimensional time series by calculating amplitude (e.g. change in eye-gaze position from one moment to the next)" lightbox="true" >}}
+
