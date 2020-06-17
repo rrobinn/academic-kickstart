@@ -52,5 +52,5 @@ Here you'll find nitty-gritty information on how I:
 
 {{< figure library="true" src="xy_coord.png" title="Step 1. Extract (x,y) coordinates of where infant is looking" lightbox="true" >}}
 {{< figure library="true" src="amplitude.png" title="Step 2. Create unidimensional time series by calculating amplitude (e.g. change in eye-gaze position from one moment to the next)" lightbox="true" >}}
-{{< figure library="true" src="palmer_fig1.png" title="Step 3. Figure from Palmer et al. (2018). (a) Simulated time series noises. (b) "Power law" relation between power and frequency of fluctuations in respective time series. Scaling exponents close to 1 (Pink Noise) indicate a fractal structure." lightbox="true" >}}
+{{< figure library="true" src="palmer_fig1.png" title="Step 3. Figure from Palmer et al. (2018). (a) Simulated time series noises. (b) 'Power law' relation between power and frequency of fluctuations in respective time series. Scaling exponents close to 1 (Pink Noise) indicate a fractal structure." lightbox="true" >}}
 
