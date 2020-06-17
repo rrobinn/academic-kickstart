@@ -9,7 +9,10 @@ highlight = true
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
-list_format = 0
+list_format = 2
+
+# 1=list, 2=compact, 3=card
+view: 3
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
