@@ -12,7 +12,7 @@ highlight = true
 list_format = 2
 
 # 1=list, 2=compact, 3=card
-view: 3
+view = 3
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
