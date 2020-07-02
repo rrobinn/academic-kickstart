@@ -19,18 +19,6 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Graduate Student Representative"
-  company = "University of Minnesota Twin Cities"
-  company_url = ""
-  location = "Minneaplis, MN"
-  date_start = "2019-09-01"
-  date_end = ""
-  description = """
-    * I hold town hall listening sessions to understand ways in which graduate students would like to see program improvements.  
-    * I then work with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
-  """
-  
-[[experience]]
   title = "PhD Candidate"
   company = "University of Minnesota Twin Cities"
   company_url = ""
@@ -46,6 +34,21 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
+  title = "Graduate Student Representative"
+  company = "University of Minnesota Twin Cities"
+  company_url = ""
+  location = "Minneaplis, MN"
+  date_start = "2019-09-01"
+  date_end = ""
+  description = """
+  
+    * I hold town hall listening sessions to understand ways in which graduate students would like to see program improvements.
+    * I then work with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
+  """
+  
+
+
+[[experience]]
   title = "Course Instructor"
   company = "University of Minnesota Twin Cities"
   company_url = ""
@@ -54,7 +57,7 @@ date_format = "Jan 2006"
   date_end = "2019-05-01"
   description = """Taught Introduction to Psychology to class of 25 college students."""
 
-
+[[experience]]
   
 
   
