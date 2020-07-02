@@ -26,7 +26,8 @@ date_format = "Jan 2006"
   date_start = "2016-09-01"
   date_end = ""
   description = """
-  My program of research is multi-disciplinary, and spans the fields of Child Psychology, Neuroscience, and Computational Psychiatry. During my Ph.D. I've worked on multiple collaborative teams, both leading projects and serving as a statistical consultant. My work has been published in multiple academic journals, and I have presented my work at international conferences.  
+  My program of research is multi-disciplinary, and spans the fields of Child Psychology, Neuroscience, and Computational Psychiatry.  
+  During my Ph.D. I've worked on multiple collaborative teams, both leading projects and serving as a statistical consultant. My work has been published in multiple academic journals, and presented at international conferences.  
   
   My research projects include:
   
