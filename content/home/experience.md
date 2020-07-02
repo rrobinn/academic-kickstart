@@ -41,9 +41,8 @@ date_format = "Jan 2006"
   date_start = "2019-09-01"
   date_end = "2020-06-01"
   description = """
-  
-    * I held town hall listening sessions to understand ways in which graduate students would like to see program improvements.
-    * I then worked with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
+  * I held town hall listening sessions to understand ways in which graduate students would like to see program improvements.
+  * I then worked with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
   """
   
 
@@ -56,7 +55,18 @@ date_format = "Jan 2006"
   date_end = "2019-05-01"
   description = """Taught Introduction to Psychology to class of 25 college students."""
 
-
+[[experience]]
+  title="Research Scientist"
+  company="Marcus Autism Center, Emory University"
+  company_url="https://med.emory.edu/departments/pediatrics/divisions/autism/lab/index.html"
+  location= "Atlanta, Georgia"
+  date_start = "2014-07-01"
+  date_end = "2016-07-01"
+  description= """
+  
+  * Worked as scientist collecting and analyzing eye-tracking data from infants and children with autism spectrum disorder.
+  * Moved project through conceptualization, analysis, and writing. Results were published in peer-reviewed journal. 
+  """
   
 
   
