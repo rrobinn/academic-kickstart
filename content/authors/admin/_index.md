@@ -20,11 +20,12 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 
 interests:
-- Developmental psychology
+- Psychology
 - Data science
-- Data visualization in R
+- Data visualization 
 - Eye-tracking
 - Brain development
+- Psychometrics
 
 education:
   courses:
@@ -33,7 +34,7 @@ education:
     year: 2021 (expected)
   - course: B.S. in Cognitive Neuroscience
     institution: Brown University
-    year: 2012
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
