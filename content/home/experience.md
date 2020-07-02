@@ -26,6 +26,9 @@ date_format = "Jan 2006"
   date_start = "2019-09-01"
   date_end = ""
   description = """
+    * I hold town hall listening sessions to understand ways in which graduate students would like to see program improvements.  
+    * I then work with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
+  """
   
 [[experience]]
   title = "PhD Candidate"
@@ -53,8 +56,6 @@ date_format = "Jan 2006"
 
 
   
-  * I hold town hall listening sessions to understand ways in which graduate students would like to see program improvements.  
-  * I then work with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
-  """
+
   
 +++
