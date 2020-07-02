@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   title = "PhD Candidate"
   company = "University of Minnesota Twin Cities"
   company_url = ""
-  location = "Minneaplis, MN"
+  location = "Minneapolis, MN"
   date_start = "2016-09-01"
   date_end = ""
   description = """
@@ -37,16 +37,15 @@ date_format = "Jan 2006"
   title = "Graduate Student Representative"
   company = "University of Minnesota Twin Cities"
   company_url = ""
-  location = "Minneaplis, MN"
+  location = "Minneapolis, MN"
   date_start = "2019-09-01"
-  date_end = ""
+  date_end = "2020-06-01"
   description = """
   
-    * I hold town hall listening sessions to understand ways in which graduate students would like to see program improvements.
-    * I then work with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
+    * I held town hall listening sessions to understand ways in which graduate students would like to see program improvements.
+    * I then worked with administration to implement positive change, with the goal of improving the effectiveness of graduate training. 
   """
   
-
 
 [[experience]]
   title = "Course Instructor"
@@ -57,7 +56,7 @@ date_format = "Jan 2006"
   date_end = "2019-05-01"
   description = """Taught Introduction to Psychology to class of 25 college students."""
 
-[[experience]]
+
   
 
   
