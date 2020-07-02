@@ -64,8 +64,8 @@ date_format = "Jan 2006"
   date_end = "2016-07-01"
   description= """
   
-  * Worked as scientist collecting and analyzing eye-tracking data from infants and children with autism spectrum disorder.
-  * Moved project through conceptualization, analysis, and writing. Results were published in peer-reviewed journal. 
+  * Worked in Social Neuroscience Lab collecting and analyzing eye-tracking data from infants and children with autism spectrum disorders.
+  * Moved project through conceptualization, analysis, and writing. Results were published in [peer-reviewed journal](https://www.nature.com/articles/s41598-018-20808-0/). 
   """
   
 
