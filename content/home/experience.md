@@ -26,7 +26,9 @@ date_format = "Jan 2006"
   date_start = "2016-09-01"
   date_end = ""
   description = """
-  Research projects include:
+  My program of research is multi-disciplinary, and spans the fields of Child Psychology, Neuroscience, and Computational Psychiatry. During my Ph.D. I've worked on multiple collaborative teams, both leading projects and serving as a statistical consultant. My work has been published in multiple academic journals, and I have presented my work at international conferences.  
+  
+  My research projects include:
   
   * Applying machine learning to develop low-cost screeners for developmental disorders.
   * Collecting and analyzing functional MRI data to model brain connectivity in infants.
@@ -65,7 +67,8 @@ date_format = "Jan 2006"
   description= """
   
   * Worked in Social Neuroscience Lab collecting and analyzing eye-tracking data from infants and children with autism spectrum disorders.
-  * Moved project through conceptualization, analysis, and writing. Results were published in [peer-reviewed journal](https://www.nature.com/articles/s41598-018-20808-0/). 
+  * Led project on early attention markers of ASD through conceptualization, analysis, and writing. 
+  * Results were published in [peer-reviewed journal](https://www.nature.com/articles/s41598-018-20808-0/) and presented at international research conferences. 
   """
   
 
