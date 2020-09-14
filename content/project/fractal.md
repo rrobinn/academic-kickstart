@@ -7,7 +7,7 @@ authors = [" Robin Sifre", "Isabella Stallworthy", "Daniel Berry", "Jed Elison"]
 
 
 # Featured image thumbnail (optional)
-image_preview = ""
+image_preview = "eye-tracking-emory.jpg"
 
 
 # Does the content use math formatting?
@@ -19,7 +19,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "eye-tracking-emory.jpg"
+# image = ""
 caption = ""
 
 
