@@ -6,8 +6,6 @@ date = "2020-06-17"
 authors = [" Robin Sifre", "Isabella Stallworthy", "Daniel Berry", "Jed Elison"]
 
 
-# Featured image thumbnail (optional)
-image_preview = "static/img/eye-tracking-emory.jpg" 
 
 
 
@@ -20,7 +18,9 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-# image = ""
+image:
+  preview_only: true
+  
 caption = ""
 
 
