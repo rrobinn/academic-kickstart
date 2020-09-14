@@ -45,7 +45,7 @@ I measure the overall complexity and coordination of infants’ attention by qua
 This approach leverages eye-tracking time series data to measure <b>eye-gaze fractality</b> as a proxy for attention coordination. Research with adults has shown that they are faster to find target objects when their eye-gaze shows these fractal signatures, suggesting that flexible coordination between attention sub-processes is critical for efficient visual exploration (Aks et al., 2002).  
 
 ## The experiment  
-{{< figure library="true" src="experiment.pdf" title="Experimental set-up" lightbox="true" >}}  
+{{< figure library="true" src="experiment.png" title="Experimental set-up" lightbox="true" >}}  
 
 We had infants come to the lab, and watch a series of movies:  
 1. <b>Social movies</b>: Videos of ladies dancing with toys. Babies love these movies.  
@@ -57,7 +57,7 @@ We predicted that:
 2. Babies' eye-gaze would be more fractal during the social movies, when they would be more engaged/attentive.  
 3. Babies' eye-gaze should also change on a moment-by-moment basis - they should be more fractal when they were paying attention to important information.  
 
-
+## What did we find?
 
 # Find out more  
 For more information on this project, please check out [my github](https://github.com/rrobinn/fractal-eye-analyses).  
