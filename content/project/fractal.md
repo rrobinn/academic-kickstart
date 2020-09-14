@@ -7,7 +7,8 @@ authors = [" Robin Sifre", "Isabella Stallworthy", "Daniel Berry", "Jed Elison"]
 
 
 # Featured image thumbnail (optional)
-image_preview = "eye-tracking-emory.jpg"
+image_preview = "static/img/eye-tracking-emory.jpg" 
+
 
 
 # Does the content use math formatting?
