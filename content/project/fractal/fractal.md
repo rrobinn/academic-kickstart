@@ -7,8 +7,6 @@ authors = [" Robin Sifre", "Isabella Stallworthy", "Daniel Berry", "Jed Elison"]
 
 
 
-
-
 # Does the content use math formatting?
 math = true
 
@@ -19,8 +17,8 @@ highlight = true
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 # [header]
 
-image:
-  preview_only: true
+#image:
+#  preview_only: true
   
 # caption = ""
 
