@@ -1,5 +1,5 @@
 +++
-title = "Finding structure in the noise: What fractals and time series data can tell us about attention"
+title = "Finding structure in the noise: Complexity & visual attention"
 date = "2020-06-17"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -19,7 +19,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-#image = "sample_et.png"
+image = "eye-tracking-emory.jpg"
 caption = ""
 
 
