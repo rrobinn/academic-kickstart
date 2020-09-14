@@ -70,9 +70,11 @@ user_groups:
 - Visitors
 ---
 
-I'm in the final stretch of my Ph.D. @University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>quantitative psychology</b>.  
+I'm in the final stretch of my Ph.D. at the University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>quantitative psychology</b>.  
 
-I am pursuing postdocs, as well as data science opportunities outside of academia.  
+I fell in love with research at Brown University, where I did my honors thesis on the different cognitive processes that impact how we make moral decisions. During my senior year I discovered the world of infant attention, and become obsessed with figuring out how babies learn to make sense of the visually crazy world. That led me to a stint at Emory University where I studied how differences in visual attention impact social and cognitive development in infants later diagnosed with autism, and finally to the U of M where I am now finishing my doctorate.
+
+I am currently pursuing data science and quantitative research opportunities.  
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}, and {{% staticref "files/resume.pdf" %}}my resume{{% /staticref %}}.  
 
 
