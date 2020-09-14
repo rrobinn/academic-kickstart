@@ -38,11 +38,25 @@ An infant sits in daycare when she hears her mother’s voice. She immediately s
 {{< figure library="true" src="sample_et.png" title="Eye-tracking data. Pink blobs show where infant is looking" lightbox="true" >}}
 
 # My work
-I fill this gap by applying methods from Complexity Science to study infant attention. Complexity Science is concerned with quantifying the dynamics of complex systems composed of multiple interacting parts.  
+I fill this gap by applying methods from <b>Complexity Science</b> to study infant attention. Complexity Science is concerned with quantifying the dynamics of complex systems composed of multiple interacting parts.  
 
 I measure the overall complexity and coordination of infants’ attention by quantifying the <i>fractality</i> of their eye-gaze. Fractality refers to nested patterns of variability that are apparent across multiple measurement scales, resulting in a <i>self-similarity</i> over time (Van Orden et al., 2011). <u>Fractal organization is a critical feature of healthy cognitive and psychobiological systems. It is thought to reflect coordinated systems that are highly self-organized, yet also flexible to change</u>.  
 
-This approach leverages eye-tracking time series data to infer the extent to which interactions between these sub-processes are well-coordinated. Research with adults has shown that they are faster to find target objects when their eye-gaze shows these fractal signatures, suggesting that flexible coordination between attention sub-processes is critical for efficient visual exploration (Aks et al., 2002).  
+This approach leverages eye-tracking time series data to measure <b>eye-gaze fractality</b> as a proxy for attention coordination. Research with adults has shown that they are faster to find target objects when their eye-gaze shows these fractal signatures, suggesting that flexible coordination between attention sub-processes is critical for efficient visual exploration (Aks et al., 2002).  
+
+## The experiment  
+{{< figure library="true" src="experiment.pdf" title="Experimental set-up" lightbox="true" >}}  
+
+We had infants come to the lab, and watch a series of movies:  
+1. <b>Social movies</b>: Videos of ladies dancing with toys. Babies love these movies.  
+2. <b>Pixelated movies</b>: These were the same as the social movies, except that the dancing ladies were pixelated. The idea here is that we wanted to preserve a lot of the low-level visual information, but remove most of the socially-engaging information.  
+3. <b>Attention Cues</b>: Throughout the experiment, we show babies attention cues to make sure that they are still calibrated to the eye-tracker. We decided to also measure their eye-gaze fractality during these trials as a "baseline" (e.g. how well coordinated is attention when there a simplistic shape on the screen?).  
+  
+We predicted that:  
+1. As babies got older, their eye-gaze would become increasingly fractal, indexing their increasingly coordinated attention abilities.  
+2. Babies' eye-gaze would be more fractal during the social movies, when they would be more engaged/attentive.  
+3. Babies' eye-gaze should also change on a moment-by-moment basis - they should be more fractal when they were paying attention to important information.  
+
 
 
 # Find out more  
