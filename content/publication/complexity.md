@@ -69,4 +69,10 @@ caption = ""
 <tr><td><img src="/img/complexity_fig_4.png" alt="Figure 4 Stallworthy et al. (2020)"/></td></tr>
 </table>
 
+<table class="image">
+<caption align="bottom"> 
+</caption>
+<tr><td><img src="/img/complexity_fig_2.png" alt="Figure 2 Stallworthy et al. (2020)"/></td></tr>
+</table>
+
 
