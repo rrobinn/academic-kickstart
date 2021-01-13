@@ -70,8 +70,8 @@ caption = ""
 </table>
 
 <table class="image">
-<caption align="bottom"> 
-</caption> Best-fitting model estimates for Repetitive Motor scores plotted over raw data for <b>a)</b> MNLFA-derived factor score estimates (adjusted for bias) and <b>b)</b> raw mean scores. The model outcome for the raw mean score is converted to probability, as a logistic linking function was used. Y-axes for both plots are scaled with limits of mean outcome +/- 2.5 SDs. 
+<caption align="bottom"> Best-fitting model estimates for Repetitive Motor scores plotted over raw data for <b>a)</b> MNLFA-derived factor score estimates (adjusted for bias) and <b>b)</b> raw mean scores. The model outcome for the raw mean score is converted to probability, as a logistic linking function was used. Y-axes for both plots are scaled with limits of mean outcome +/- 2.5 SDs. 
+</caption> 
 <tr><td><img src="/img/invar-rep-bx2.png" alt="Figure 4 Sifre et al. (2021)"/></td></tr>
 </table>
 
