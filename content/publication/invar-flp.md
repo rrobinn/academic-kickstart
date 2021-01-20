@@ -35,9 +35,9 @@ selected = false
 #projects = [""]
 
 # Links (optional)# Custom links (optional).
-# url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
+url_preprint = "https://psyarxiv.com/tw3fg/"
 url_pdf = "pubpdf/DeJoseph_Sifre_2021.pdf"
-url_code = "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdev.13504"
+# url_code = "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdev.13504"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
 #url_slides = ""
@@ -46,7 +46,7 @@ url_code = "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdev.13504"
 #url_source = ""
 
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [name = "DOI", url = "https://www.sciencedirect.com/science/article/pii/S0022347618306504?#via%3Dihub#f0030"]
+url_custom = [name = "DOI", url = "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdev.13504"]
 
 
 # Does the content use math formatting?
