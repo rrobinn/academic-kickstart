@@ -36,8 +36,8 @@ selected = false
 
 # Links (optional)# Custom links (optional).
 # url_preprint = "https://dx.doi.org/10.17605/OSF.IO/JZA9R"
-url_pdf = "pubpdf/Sifre_2021_JND.pdf"
-#url_code = "https://osf.io/yq52s/"
+url_pdf = "pubpdf/DeJoseph_Sifre_2021.pdf"
+url_code = "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdev.13504"
 #url_dataset = "https://osf.io/yq52s/"
 #url_project = ""
 #url_slides = ""
