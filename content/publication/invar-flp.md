@@ -46,7 +46,7 @@ url_pdf = "pubpdf/DeJoseph_Sifre_2021.pdf"
 #url_source = ""
 
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [name = "DOI", url = "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdev.13504"]
+#url_custom = [name = "DOI", url = "https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/cdev.13504"]
 
 
 # Does the content use math formatting?
@@ -68,6 +68,9 @@ caption = ""
 </caption>
 <tr><td><img src="/img/DeJoseph_Fig3.png" alt="Figure 3 DeJoseph, Sifre, et al. (2021)"/></td></tr>
 </table>
+
+
+{{< tweet 1348270330704392192 >}}
 
 
 
