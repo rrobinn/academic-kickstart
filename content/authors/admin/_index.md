@@ -31,7 +31,7 @@ education:
   courses:
   - course: PhD in Developmental Science
     institution: Institute of Child Development, University of Minnesota
-    year: 2021 (expected)
+    year: 2021 
   - course: B.S. in Cognitive Neuroscience
     institution: Brown University
     year: 2014
