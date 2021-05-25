@@ -71,9 +71,9 @@ user_groups:
 ---
 I'm a data scientist and statistician working at Princeton's [Human Diversity Lab](https://hudl.princeton.edu/). I manage and wrangle data, and provide stats consultations for the [TransYouth Project](https://hudl.princeton.edu/research-0).  
 
-I'm also in the final stretch of my Ph.D. at the University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>quantitative psychology</b>.  
+I received my Ph.D. at the University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>quantitative psychology</b>.  
 
-I fell in love with research at Brown University, where I did my honors thesis on the different cognitive processes that impact how we make  decisions. During my senior year I discovered the world of infant attention, and become obsessed with figuring out how babies learn to make sense of the visually crazy world. That led me to a stint at Emory University where I studied how differences in visual attention impact social and cognitive development in infants later diagnosed with autism, and finally to the U of M where I am now finishing my doctorate.
+I fell in love with research at Brown University, where I did my honors thesis on the different cognitive processes that impact how we make  decisions. During my senior year I discovered the world of infant attention, and become obsessed with figuring out how babies learn to make sense of the visually complex world. That led me to a stint at Emory University where I studied how differences in visual attention impact social and cognitive development in infants later diagnosed with autism, and finally to the U of M where I earned my doctorate.
 
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}, and {{% staticref "files/resume.pdf" %}}my resume{{% /staticref %}}.  
 
