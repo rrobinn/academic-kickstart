@@ -19,6 +19,27 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Manager, Data Science"
+  company = "EarliTec Diagnostics"
+  company_url = "https://www.earlitecdx.com/"
+  location = ""
+  date_start = "2022-07-01"
+  date_end = ""
+  description = """
+  I lead a time of data scientists in developing eye-tracking data processing pipelines and diagnostic models for a medical device that makes early autism diagnosis accessible to children everywhere. 
+  """
+
+[[experience]]
+  title = "Data Scientist"
+  company = "EarliTec Diagnostics"
+  company_url = "https://www.earlitecdx.com/"
+  location = ""
+  date_start = "2021-08-01"
+  date_end = "2022-07-01"
+  description = """
+  """
+
+[[experience]]
   title = "Data Scientist & Statistician"
   company = "TransYouth Project, Princeton University"
   company_url = "https://hudl.princeton.edu/research-0"
