@@ -29,6 +29,7 @@ date_format = "Jan 2006"
   I provided stats consultations for the [TransYouth Project](https://hudl.princeton.edu/research-0). I also designed a logical and clear data data organizational structure for a 20-year-long study, and built data cleaning pipelines in R. 
   """
 
+[[experience]]
   title = "PhD Candidate"
   company = "University of Minnesota Twin Cities"
   company_url = ""
