@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Ph.D. Candidate
+role: Data Scientist, Manager
 
 # Organizations/Affiliations
 organizations:
