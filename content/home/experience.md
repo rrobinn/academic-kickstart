@@ -19,12 +19,22 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Data Scientist & Statistician"
+  company = "TransYouth Project, Princeton University"
+  company_url = "https://hudl.princeton.edu/research-0"
+  location = ""
+  date_start = "2020-12-15"
+  date_end = "2021-07-30"
+  description = """
+  I provided stats consultations for the [TransYouth Project](https://hudl.princeton.edu/research-0). I also designed a logical and clear data data organizational structure for a 20-year-long study, and built data cleaning pipelines in R. 
+  """
+
   title = "PhD Candidate"
   company = "University of Minnesota Twin Cities"
   company_url = ""
   location = "Minneapolis, MN"
   date_start = "2016-09-01"
-  date_end = ""
+  date_end = "2021-05-20"
   description = """
   My program of research is multi-disciplinary, and spans the fields of Child Psychology, Neuroscience, and Computational Psychiatry.  
   During my Ph.D. I've worked on multiple collaborative teams, both leading projects and serving as a statistical consultant. My work has been published in multiple academic journals, and presented at international conferences.  

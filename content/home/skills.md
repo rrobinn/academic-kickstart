@@ -13,12 +13,17 @@ subtitle = ""
 # Add/remove as many `[[feature]]` blocks below as you like.
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
+[[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "python"
+  description = "I write code in python for product development."
 
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "I clean and analyze data in R every day, and love RMarkdown for sharing results."
+  description = "I clean and analyze data in R, and love RMarkdown for sharing results."
   
 [[feature]]
   icon = "chart-line"
@@ -36,12 +41,12 @@ subtitle = ""
   icon = "laptop-code"
   icon_pack = "fas"
   name = "Programming"
-  description = "MATLAB, Python, and Java"
+  description = "MATLAB, Python, R, and Java"
   
 [[feature]]
   icon = "eye"
   icon_pack = "far"
   name = "Eye tracking"
-  description = "Eye tracking tech"
+  description = "I develop medical devices that leverage eye-tracking tech."
 
 +++

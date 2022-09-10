@@ -14,14 +14,15 @@ role: Data Scientist, Manager
 
 # Organizations/Affiliations
 organizations:
-- name: University of Minnesota
-  url: ""
+- name: EarliTec Diagnostics
+  url: "https://www.earlitecdx.com/"
 
 # Short bio (displayed in user profile at end of posts)
 
 interests:
-- Psychology
 - Data science
+- Model Development
+- Psychology
 - Data visualization 
 - Eye-tracking
 - Brain development
@@ -69,11 +70,11 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I'm a data scientist and statistician working at Princeton's [Human Diversity Lab](https://hudl.princeton.edu/). I manage and wrangle data, and provide stats consultations for the [TransYouth Project](https://hudl.princeton.edu/research-0).  
+I'm a Data Scientist at [EarliTec Diagnostics](https://www.earlitecdx.com/), where I manage an amazing team developing products that will make early autism diagnosis and treatment accessible to children everywhere. In my role I get to design and implement our data processing pipeline, design quantitative analysis plans for clinical trials, and lead data science projects to both improve our existing products and explore future product opportunities. 
+ 
+I have a Ph.D. from the University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>quantitative psychology</b>.  
 
-I received my Ph.D. at the University of Minnesota's Institute of Child Development. My research interests include  <b>brain and behavioral development</b>, <b>visual attention</b>, and <b>quantitative psychology</b>.  
-
-I fell in love with research at Brown University, where I did my honors thesis on the different cognitive processes that impact how we make  decisions. During my senior year I discovered the world of infant attention, and become obsessed with figuring out how babies learn to make sense of the visually complex world. That led me to a stint at Emory University where I studied how differences in visual attention impact social and cognitive development in infants later diagnosed with autism, and finally to the U of M where I earned my doctorate.
+I fell in love with research at Brown University, where I did my honors thesis on the different cognitive processes that impact how we make decisions. During my senior year I discovered the world of infant attention, and become obsessed with figuring out how babies learn to make sense of the visually complex world. That led me to a stint at Emory University where I studied how differences in visual attention impact social and cognitive development in infants later diagnosed with autism. 
 
 {{% staticref "files/cv.pdf" %}}Download my CV{{% /staticref %}}, and {{% staticref "files/resume.pdf" %}}my resume{{% /staticref %}}.  
 
